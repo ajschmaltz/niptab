@@ -38,7 +38,7 @@ class DataController extends Controller {
     $filings = file_get_contents($filings_link);
 
     if($this->isInvalidXML($filings)) {
-      $ticker->latest_filing = '';
+      $ticker->latest_filing = 2;
       return $ticker->save();
     }
 
@@ -49,6 +49,7 @@ class DataController extends Controller {
 
     if($this->hasNoEntry($filings)){
       $ticker->latest_filing = '';
+      $ticker->status = 2;
       return $ticker->save();
     }
 
@@ -168,7 +169,7 @@ class DataController extends Controller {
 
   public function spin()
   {
-    $tickers = Ticker::take(5)->orderBy('updated_at')->get();
+    $tickers = Ticker::where('status', '!=', 3)->take(5)->orderBy('updated_at')->get();
 
     foreach($tickers as $ticker){
       $this->getLatestFiling($ticker);
