@@ -85,8 +85,6 @@ class DataController extends Controller {
       $this->getHolders($ticker);
     }
 
-    return Holder::all();
-
   }
 
   /**
@@ -100,10 +98,8 @@ class DataController extends Controller {
     $ticker->status = 1;
     $ticker->save();
 
-    print $ticker->latest_filing;
-
     $filing = strip_tags(
-      file_get_contents(htmlentities($ticker->latest_filing))
+      htmlentities(file_get_contents($ticker->latest_filing))
     );
 
     $statements = array();
