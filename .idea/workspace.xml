@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="565b569f-d329-4952-9153-0c485c2471e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/DataController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/DataController.php" />
     </list>
     <ignored path="niptab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DataController.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DataController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="24" selection-start="1505" selection-end="1505" vertical-scroll-proportion="23.076923" vertical-offset="1911" max-vertical-offset="3588">
+            <state line="137" column="57" selection-start="3192" selection-end="3192" vertical-scroll-proportion="0.20545454" vertical-offset="3038" max-vertical-offset="3588">
               <folding>
                 <element signature="e#39#54#0" expanded="true" />
               </folding>
@@ -81,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="39" selection-start="843" selection-end="843" vertical-scroll-proportion="0.82003397" vertical-offset="138" max-vertical-offset="989">
+            <state line="27" column="39" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="989">
               <folding />
             </state>
           </provider>
@@ -156,9 +156,9 @@
         <option value="$PROJECT_DIR$/database/migrations/2015_02_11_011759_tickers.php" />
         <option value="$PROJECT_DIR$/app/Ticker.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/DataController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_02_11_132136_add_status_to_tickers.php" />
         <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/DataController.php" />
       </list>
     </option>
   </component>
@@ -505,19 +505,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="24" selection-start="1505" selection-end="1505" vertical-scroll-proportion="23.076923" vertical-offset="1911" max-vertical-offset="3588">
-          <folding>
-            <element signature="e#39#54#0" expanded="true" />
-          </folding>
+        <state line="27" column="39" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="989">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="39" selection-start="843" selection-end="843" vertical-scroll-proportion="0.82003397" vertical-offset="138" max-vertical-offset="989">
-          <folding />
+        <state line="137" column="57" selection-start="3192" selection-end="3192" vertical-scroll-proportion="0.20545454" vertical-offset="3038" max-vertical-offset="3588">
+          <folding>
+            <element signature="e#39#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
