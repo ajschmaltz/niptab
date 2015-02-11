@@ -63,13 +63,13 @@ class DataController extends Controller {
   public function getMatches($statement, $str)
   {
     $pattern = '/([\d,]+)\D*' . $statement . '/';
-    preg_match_all($pattern, $str, $match, PREG_SET_ORDER);
+    preg_match_all($pattern, $str, $matches, PREG_SET_ORDER);
 
-    if(! $match){
+    if(! $matches){
       return null;
     }
 
-    return $match[0];
+    return $matches;
   }
 
   public function spinHolders()
@@ -103,7 +103,7 @@ class DataController extends Controller {
     print $ticker->latest_filing;
 
     $filing = strip_tags(
-      file_get_contents($ticker->latest_filing)
+      file_get_contents(html_entity_decode($ticker->latest_filing))
     );
 
     $statements = array();
@@ -114,13 +114,22 @@ class DataController extends Controller {
 
     foreach($statements as $statement){
 
-      $match = $this->getMatches($statement, $filing);
+      $matches = $this->getMatches($statement, $filing);
 
-      if($match){
-        $ticker->holders()->create([
-          'total' => str_replace(',', '', $match[1]),
-          'source' => $match[0]
-        ]);
+      if(is_array($matches)){
+
+        foreach($matches as $match){
+
+          if($match){
+            dd($match);
+            $ticker->holders()->create([
+              'total' => str_replace(',', '', $match[1]),
+              'source' => $match[0]
+            ]);
+          }
+
+        }
+
       }
 
     }
