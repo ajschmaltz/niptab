@@ -103,7 +103,7 @@ class DataController extends Controller {
     print $ticker->latest_filing;
 
     $filing = strip_tags(
-      file_get_contents(html_entity_decode($ticker->latest_filing))
+      file_get_contents(htmlentities($ticker->latest_filing))
     );
 
     $statements = array();
