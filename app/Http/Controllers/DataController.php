@@ -30,8 +30,10 @@ class DataController extends Controller {
 
   public function getLatestFiling(Ticker $ticker)
   {
+    
+    $ticker = str_replace(' ', '', $ticker->symbol);
 
-    $filings_link = "http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=$ticker->symbol&type=10-k%25&dateb=&owner=exclude&start=0&count=10&output=atom";
+    $filings_link = "http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=$ticker&type=10-k%25&dateb=&owner=exclude&start=0&count=10&output=atom";
 
     $filings = file_get_contents($filings_link);
 

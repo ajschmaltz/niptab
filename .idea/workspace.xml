@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="565b569f-d329-4952-9153-0c485c2471e9" name="Default" comment="" />
+    <list default="true" id="565b569f-d329-4952-9153-0c485c2471e9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/DataController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/DataController.php" />
+    </list>
     <ignored path="niptab.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +28,7 @@
       <file leaf-file-name="DataController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="33" selection-start="590" selection-end="590" vertical-scroll-proportion="-2.9738219" vertical-offset="2325" max-vertical-offset="3519">
+            <state line="32" column="4" selection-start="672" selection-end="672" vertical-scroll-proportion="0.44153577" vertical-offset="483" max-vertical-offset="3565">
               <folding>
                 <element signature="e#39#54#0" expanded="true" />
               </folding>
@@ -376,7 +378,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="33" selection-start="590" selection-end="590" vertical-scroll-proportion="-2.9738219" vertical-offset="2325" max-vertical-offset="3519">
+        <state line="32" column="4" selection-start="672" selection-end="672" vertical-scroll-proportion="0.44153577" vertical-offset="483" max-vertical-offset="3565">
           <folding>
             <element signature="e#39#54#0" expanded="true" />
           </folding>
