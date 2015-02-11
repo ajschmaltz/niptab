@@ -31,12 +31,12 @@
               <td>{{ $ticker->updated_at }}</td>
               <td>
                 @foreach($ticker->holders as $holder)
-                  {{ $holder->total }}
+                  {{ $holder->total }}\n
                 @endforeach
               </td>
               <td>
                 @foreach($ticker->holders as $holder)
-                  {{ $holder->source }}
+                  {{ $holder->source }}\n
                 @endforeach
               </td>
             </tr>
