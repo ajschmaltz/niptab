@@ -134,7 +134,7 @@ class DataController extends Controller {
 
   public function showTickers()
   {
-    return Ticker::all();
+    view('index')->withTickers(Ticker::all());
   }
 
   public function spin()
