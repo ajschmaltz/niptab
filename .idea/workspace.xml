@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="565b569f-d329-4952-9153-0c485c2471e9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/DataController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/DataController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
     </list>
     <ignored path="niptab.iws" />
@@ -25,6 +26,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="DataController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="31" selection-start="2273" selection-end="2273" vertical-scroll-proportion="0.2766727" vertical-offset="2009" max-vertical-offset="4140">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="2015_02_11_201747_add_status_to_holders_table.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_11_201747_add_status_to_holders_table.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -39,27 +49,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="27" column="4" selection-start="421" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="262" max-vertical-offset="897">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="welcome.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1196">
-              <folding>
-                <marker date="1423518620000" expanded="true" signature="5:765" placeholder="..." />
-                <marker date="1423518620000" expanded="true" signature="13:577" placeholder="..." />
-                <marker date="1423518620000" expanded="true" signature="116:568" placeholder="..." />
-                <marker date="1423518620000" expanded="true" signature="126:285" placeholder="{...}" />
-                <marker date="1423518620000" expanded="true" signature="301:384" placeholder="{...}" />
-                <marker date="1423518620000" expanded="true" signature="398:455" placeholder="{...}" />
-                <marker date="1423518620000" expanded="true" signature="467:519" placeholder="{...}" />
-                <marker date="1423518620000" expanded="true" signature="531:558" placeholder="{...}" />
-                <marker date="1423518620000" expanded="true" signature="585:757" placeholder="..." />
-                <marker date="1423518620000" expanded="true" signature="611:748" placeholder="..." />
-                <marker date="1423518620000" expanded="true" signature="636:739" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -79,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="54" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.75618374" vertical-offset="446" max-vertical-offset="1265">
+            <state line="35" column="19" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1265">
               <folding />
             </state>
           </provider>
@@ -157,9 +146,9 @@
         <option value="$PROJECT_DIR$/database/migrations/2015_02_11_012144_holders.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_02_11_135033_add_ticker_id_to_holders.php" />
         <option value="$PROJECT_DIR$/app/Holder.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/DataController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_02_11_201747_add_status_to_holders_table.php" />
         <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/DataController.php" />
       </list>
     </option>
   </component>
@@ -424,9 +413,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="16" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="1081">
-          <folding>
-            <element signature="e#39#54#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -476,17 +463,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1196">
           <folding>
-            <marker date="1423518620000" expanded="true" signature="5:765" placeholder="..." />
-            <marker date="1423518620000" expanded="true" signature="13:577" placeholder="..." />
-            <marker date="1423518620000" expanded="true" signature="116:568" placeholder="..." />
-            <marker date="1423518620000" expanded="true" signature="126:285" placeholder="{...}" />
-            <marker date="1423518620000" expanded="true" signature="301:384" placeholder="{...}" />
-            <marker date="1423518620000" expanded="true" signature="398:455" placeholder="{...}" />
-            <marker date="1423518620000" expanded="true" signature="467:519" placeholder="{...}" />
-            <marker date="1423518620000" expanded="true" signature="531:558" placeholder="{...}" />
-            <marker date="1423518620000" expanded="true" signature="585:757" placeholder="..." />
-            <marker date="1423518620000" expanded="true" signature="611:748" placeholder="..." />
-            <marker date="1423518620000" expanded="true" signature="636:739" placeholder="..." />
+            <marker date="1423518620000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423518620000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423518620000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423518620000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423518620000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423518620000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423518620000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423518620000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423518620000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423518620000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423518620000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -546,15 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="32" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.40104166" vertical-offset="1586" max-vertical-offset="4255">
-          <folding>
-            <element signature="e#39#54#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_11_012144_holders.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="4" selection-start="215" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="897">
@@ -578,7 +556,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="54" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.75618374" vertical-offset="446" max-vertical-offset="1265">
+        <state line="35" column="19" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1265">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="31" selection-start="2273" selection-end="2273" vertical-scroll-proportion="0.2766727" vertical-offset="2009" max-vertical-offset="4140">
           <folding />
         </state>
       </provider>
