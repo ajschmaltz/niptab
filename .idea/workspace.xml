@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="565b569f-d329-4952-9153-0c485c2471e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/DataController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/DataController.php" />
-    </list>
+    <list default="true" id="565b569f-d329-4952-9153-0c485c2471e9" name="Default" comment="" />
     <ignored path="niptab.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,13 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DataController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
+      <file leaf-file-name="2015_02_11_201747_add_status_to_holders_table.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_11_201747_add_status_to_holders_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="32" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.40104166" vertical-offset="1586" max-vertical-offset="4255">
-              <folding>
-                <element signature="e#39#54#0" expanded="true" />
-              </folding>
+            <state line="24" column="3" selection-start="392" selection-end="392" vertical-scroll-proportion="0.59363955" vertical-offset="193" max-vertical-offset="897">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -39,7 +35,7 @@
       <file leaf-file-name="2015_02_11_132136_add_status_to_tickers.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_11_132136_add_status_to_tickers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="33" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="897">
+            <state line="27" column="4" selection-start="421" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="262" max-vertical-offset="897">
               <folding />
             </state>
           </provider>
@@ -85,7 +81,18 @@
         <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="33" column="43" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="1265">
-              <folding />
+              <folding>
+                <marker date="1423667462000" expanded="true" signature="59:1417" placeholder="..." />
+                <marker date="1423667462000" expanded="true" signature="78:1404" placeholder="..." />
+                <marker date="1423667462000" expanded="true" signature="120:1397" placeholder="..." />
+                <marker date="1423667462000" expanded="true" signature="181:1356" placeholder="..." />
+                <marker date="1423667462000" expanded="true" signature="197:452" placeholder="..." />
+                <marker date="1423667462000" expanded="true" signature="212:435" placeholder="..." />
+                <marker date="1423667462000" expanded="true" signature="468:1341" placeholder="..." />
+                <marker date="1423667462000" expanded="true" signature="525:1302" placeholder="..." />
+                <marker date="1423667462000" expanded="true" signature="972:1118" placeholder="..." />
+                <marker date="1423667462000" expanded="true" signature="1137:1284" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,7 +100,7 @@
       <file leaf-file-name="2015_02_11_012144_holders.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_11_012144_holders.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="31" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="897">
+            <state line="14" column="4" selection-start="215" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="897">
               <folding />
             </state>
           </provider>
@@ -161,6 +168,7 @@
         <option value="$PROJECT_DIR$/app/Holder.php" />
         <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/DataController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_02_11_201747_add_status_to_holders_table.php" />
       </list>
     </option>
   </component>
@@ -390,7 +398,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34110788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -426,7 +434,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="16" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="1081">
           <folding>
-            <element signature="e#39#54#0" expanded="true" />
+            <element signature="e#39#54#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -505,13 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_11_012144_holders.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="31" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="897">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_11_011759_tickers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="31" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920">
@@ -547,17 +548,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_11_132136_add_status_to_tickers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="33" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="897">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="43" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="1265">
-          <folding />
+          <folding>
+            <marker date="1423667462000" expanded="true" signature="59:1417" placeholder="..." />
+            <marker date="1423667462000" expanded="true" signature="78:1404" placeholder="..." />
+            <marker date="1423667462000" expanded="true" signature="120:1397" placeholder="..." />
+            <marker date="1423667462000" expanded="true" signature="181:1356" placeholder="..." />
+            <marker date="1423667462000" expanded="true" signature="197:452" placeholder="..." />
+            <marker date="1423667462000" expanded="true" signature="212:435" placeholder="..." />
+            <marker date="1423667462000" expanded="true" signature="468:1341" placeholder="..." />
+            <marker date="1423667462000" expanded="true" signature="525:1302" placeholder="..." />
+            <marker date="1423667462000" expanded="true" signature="972:1118" placeholder="..." />
+            <marker date="1423667462000" expanded="true" signature="1137:1284" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -572,8 +577,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="32" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.40104166" vertical-offset="1586" max-vertical-offset="4255">
           <folding>
-            <element signature="e#39#54#0" expanded="true" />
+            <element signature="e#39#54#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_11_012144_holders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="4" selection-start="215" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="897">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_11_132136_add_status_to_tickers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="4" selection-start="421" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="262" max-vertical-offset="897">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_11_201747_add_status_to_holders_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="3" selection-start="392" selection-end="392" vertical-scroll-proportion="0.59363955" vertical-offset="193" max-vertical-offset="897">
+          <folding />
         </state>
       </provider>
     </entry>
