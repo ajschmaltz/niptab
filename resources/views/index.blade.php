@@ -28,7 +28,11 @@
               @endif
               <td>{{ $ticker->status }}</td>
               <td>{{ $ticker->updated_at }}</td>
-              <td>{{ $ticker->holders }}</td>
+              <td>
+                @foreach($ticker->holders as $holder)
+                  {{ $holder->total }}: <small>{{ $holder-source }}</small>
+                @endforeach
+              </td>
             </tr>
           @endforeach
         </tbody>
