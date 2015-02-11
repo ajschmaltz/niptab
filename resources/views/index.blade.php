@@ -19,7 +19,7 @@
             <tr>
               <td>{{ $ticker->id }}</td>
               <td>{{ $ticker->symbol }}</td>
-              @if(isset($ticker->latest_filing) $ticker->latest_filing && != 'not available')
+              @if(isset($ticker->latest_filing) && $ticker->latest_filing != 'not available')
                 <td><a href="{{ $ticker->latest_filing }}">10-K</a></td>
               @else
                 <td>Not Available</td>
