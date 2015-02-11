@@ -26,7 +26,7 @@
               @else
                 <td>Not Available</td>
               @endif
-              {{ $ticker->updated_at }}
+              <td>{{ $ticker->updated_at }}</td>
             </tr>
           @endforeach
         </tbody>
