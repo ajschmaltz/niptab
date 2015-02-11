@@ -24,8 +24,9 @@
               @elseif($ticker->latest_filing = '')
                 <td>Not Run Yet</td>
               @else
-                <td>{{ $ticker->updated_at }}</td>
+                <td>Not Available</td>
               @endif
+              {{ $ticker->updated_at }}
             </tr>
           @endforeach
         </tbody>

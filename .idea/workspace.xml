@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="565b569f-d329-4952-9153-0c485c2471e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/DataController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/DataController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
     </list>
     <ignored path="niptab.iws" />
@@ -76,7 +75,7 @@
       <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="20" selection-start="841" selection-end="841" vertical-scroll-proportion="0.62478775" vertical-offset="253" max-vertical-offset="966">
+            <state line="28" column="39" selection-start="869" selection-end="869" vertical-scroll-proportion="0.663837" vertical-offset="253" max-vertical-offset="989">
               <folding />
             </state>
           </provider>
@@ -500,7 +499,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="20" selection-start="841" selection-end="841" vertical-scroll-proportion="0.62478775" vertical-offset="253" max-vertical-offset="966">
+        <state line="28" column="39" selection-start="869" selection-end="869" vertical-scroll-proportion="0.663837" vertical-offset="253" max-vertical-offset="989">
           <folding />
         </state>
       </provider>
