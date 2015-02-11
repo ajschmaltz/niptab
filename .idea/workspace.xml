@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="565b569f-d329-4952-9153-0c485c2471e9" name="Default" comment="" />
+    <list default="true" id="565b569f-d329-4952-9153-0c485c2471e9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
+    </list>
     <ignored path="niptab.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2015_02_11_201747_add_status_to_holders_table.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2015_02_11_201747_add_status_to_holders_table.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_11_201747_add_status_to_holders_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="3" selection-start="392" selection-end="392" vertical-scroll-proportion="0.59363955" vertical-offset="193" max-vertical-offset="897">
+            <state line="24" column="2" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="193" max-vertical-offset="897">
               <folding />
             </state>
           </provider>
@@ -77,22 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="43" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="1265">
-              <folding>
-                <marker date="1423667462000" expanded="true" signature="59:1417" placeholder="..." />
-                <marker date="1423667462000" expanded="true" signature="78:1404" placeholder="..." />
-                <marker date="1423667462000" expanded="true" signature="120:1397" placeholder="..." />
-                <marker date="1423667462000" expanded="true" signature="181:1356" placeholder="..." />
-                <marker date="1423667462000" expanded="true" signature="197:452" placeholder="..." />
-                <marker date="1423667462000" expanded="true" signature="212:435" placeholder="..." />
-                <marker date="1423667462000" expanded="true" signature="468:1341" placeholder="..." />
-                <marker date="1423667462000" expanded="true" signature="525:1302" placeholder="..." />
-                <marker date="1423667462000" expanded="true" signature="972:1118" placeholder="..." />
-                <marker date="1423667462000" expanded="true" signature="1137:1284" placeholder="..." />
-              </folding>
+            <state line="38" column="54" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.75618374" vertical-offset="446" max-vertical-offset="1265">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,9 +157,9 @@
         <option value="$PROJECT_DIR$/database/migrations/2015_02_11_012144_holders.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_02_11_135033_add_ticker_id_to_holders.php" />
         <option value="$PROJECT_DIR$/app/Holder.php" />
-        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/DataController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_02_11_201747_add_status_to_holders_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
       </list>
     </option>
   </component>
@@ -548,24 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="43" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="1265">
-          <folding>
-            <marker date="1423667462000" expanded="true" signature="59:1417" placeholder="..." />
-            <marker date="1423667462000" expanded="true" signature="78:1404" placeholder="..." />
-            <marker date="1423667462000" expanded="true" signature="120:1397" placeholder="..." />
-            <marker date="1423667462000" expanded="true" signature="181:1356" placeholder="..." />
-            <marker date="1423667462000" expanded="true" signature="197:452" placeholder="..." />
-            <marker date="1423667462000" expanded="true" signature="212:435" placeholder="..." />
-            <marker date="1423667462000" expanded="true" signature="468:1341" placeholder="..." />
-            <marker date="1423667462000" expanded="true" signature="525:1302" placeholder="..." />
-            <marker date="1423667462000" expanded="true" signature="972:1118" placeholder="..." />
-            <marker date="1423667462000" expanded="true" signature="1137:1284" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="49" selection-start="834" selection-end="834" vertical-scroll-proportion="0.7657046" vertical-offset="32" max-vertical-offset="621">
@@ -598,7 +571,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_11_201747_add_status_to_holders_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="3" selection-start="392" selection-end="392" vertical-scroll-proportion="0.59363955" vertical-offset="193" max-vertical-offset="897">
+        <state line="24" column="2" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="193" max-vertical-offset="897">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="54" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.75618374" vertical-offset="446" max-vertical-offset="1265">
           <folding />
         </state>
       </provider>
