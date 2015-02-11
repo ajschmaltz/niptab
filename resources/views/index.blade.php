@@ -14,6 +14,7 @@
             <th>Status</th>
             <th>Last Updated</th>
             <th>Holders</th>
+            <th>Source</th>
           </tr>
         </thead>
         <tbody>
@@ -30,8 +31,12 @@
               <td>{{ $ticker->updated_at }}</td>
               <td>
                 @foreach($ticker->holders as $holder)
-                  {{ $holder->total }}: <small>{{ $holder->source }}</small>
-                  <br/>
+                  {{ $holder->total }}
+                @endforeach
+              </td>
+              <td>
+                @foreach($ticker->holders as $holder)
+                  {{ $holder->source }}
                 @endforeach
               </td>
             </tr>
