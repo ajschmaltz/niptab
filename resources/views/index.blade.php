@@ -13,6 +13,7 @@
             <th>Link to Filing</th>
             <th>Status</th>
             <th>Last Updated</th>
+            <th>Holders</th>
           </tr>
         </thead>
         <tbody>
@@ -27,6 +28,7 @@
               @endif
               <td>{{ $ticker->status }}</td>
               <td>{{ $ticker->updated_at }}</td>
+              <td>{{ $ticker->holders }}</td>
             </tr>
           @endforeach
         </tbody>

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="565b569f-d329-4952-9153-0c485c2471e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/DataController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/DataController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Holder.php" afterPath="$PROJECT_DIR$/app/Holder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
     </list>
     <ignored path="niptab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DataController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DataController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="17" selection-start="2588" selection-end="2588" vertical-scroll-proportion="0.7204861" vertical-offset="2253" max-vertical-offset="4094">
+            <state line="116" column="17" selection-start="2588" selection-end="2588" vertical-scroll-proportion="0.0" vertical-offset="2253" max-vertical-offset="4094">
               <folding>
                 <element signature="e#39#54#0" expanded="true" />
               </folding>
@@ -83,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="39" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="989">
+            <state line="30" column="40" selection-start="967" selection-end="967" vertical-scroll-proportion="0.72665536" vertical-offset="262" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
@@ -156,20 +154,20 @@
         <option value="$PROJECT_DIR$/database/migrations/2015_02_11_011759_tickers.php" />
         <option value="$PROJECT_DIR$/app/Ticker.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_02_11_132136_add_status_to_tickers.php" />
-        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_02_11_133531_add_default_to_tickers.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_02_11_012144_holders.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_02_11_135033_add_ticker_id_to_holders.php" />
         <option value="$PROJECT_DIR$/app/Holder.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/DataController.php" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
-    <option name="y" value="144" />
+    <option name="x" value="2" />
+    <option name="y" value="130" />
     <option name="width" value="1372" />
     <option name="height" value="691" />
   </component>
@@ -384,7 +382,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="144" width="1372" height="691" extended-state="0" />
+    <frame x="2" y="130" width="1372" height="691" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -507,13 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="39" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="989">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="49" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621">
@@ -565,10 +556,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="17" selection-start="2588" selection-end="2588" vertical-scroll-proportion="0.7204861" vertical-offset="2253" max-vertical-offset="4094">
+        <state line="116" column="17" selection-start="2588" selection-end="2588" vertical-scroll-proportion="0.0" vertical-offset="2253" max-vertical-offset="4094">
           <folding>
             <element signature="e#39#54#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="40" selection-start="967" selection-end="967" vertical-scroll-proportion="0.72665536" vertical-offset="262" max-vertical-offset="1035">
+          <folding />
         </state>
       </provider>
     </entry>
