@@ -22,7 +22,11 @@
                 <tr>
                   <td>{{ $ticker->id }}</td>
                   <td>{{ $ticker->symbol }}</td>
-                  <td>{{ $ticker->id }}</td>
+                  @if($ticker->latest_filing != 'not available')
+                    <td><a href="{{ $ticker->latest_filing }}">10-K</a></td>
+                  @else
+                    <td>{{ $ticker->latest_filing }}</td>
+                  @endif
                   <td>{{ $ticker->updated_at }}</td>
                 </tr>
               @endforeach
