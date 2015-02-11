@@ -102,7 +102,9 @@ class DataController extends Controller {
 
     print $ticker->latest_filing;
 
-    $filing = file_get_contents($ticker->latest_filing);
+    $filing = strip_tags(
+      file_get_contents($ticker->latest_filing)
+    );
 
     $statements = array();
     $statements = [
