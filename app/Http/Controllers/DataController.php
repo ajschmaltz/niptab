@@ -116,7 +116,7 @@ class DataController extends Controller {
 
       if($match){
         $ticker->holders()->create([
-          'total' => $match[1],
+          'total' => str_replace(',', '', $match[1]),
           'source' => $match[0]
         ]);
       }
