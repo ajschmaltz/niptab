@@ -99,11 +99,11 @@ class DataController extends Controller {
     $ticker->status = 1;
     $ticker->save();
 
-    dd($ticker->latest_filing);
-
     $filing = strip_tags(
       html_entity_decode(file_get_contents($ticker->latest_filing))
     );
+
+    dd($filing);
 
     $statements = array();
     $statements = [
