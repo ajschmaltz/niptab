@@ -21,7 +21,7 @@
               <td>{{ $ticker->symbol }}</td>
               @if($ticker->latest_filing != 'not available')
                 <td><a href="{{ $ticker->latest_filing }}">10-K</a></td>
-              @elseif($ticker->latest_filing = '')
+              @elseif($ticker->latest_filing = null)
                 <td>Not Run Yet</td>
               @else
                 <td>Not Available</td>
