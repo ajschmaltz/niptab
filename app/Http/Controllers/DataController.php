@@ -77,6 +77,7 @@ class DataController extends Controller {
   {
     $tickers = Ticker::whereStatus(0)
       ->where('latest_filing', '!=', '')
+      ->where('latest_filing', '!=', 2)
       ->where('latest_filing', '!=', 'not available')
       ->take(5)
       ->orderBy('updated_at')
