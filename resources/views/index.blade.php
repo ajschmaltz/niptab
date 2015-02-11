@@ -11,6 +11,7 @@
             <th>ID</th>
             <th>Symbol</th>
             <th>Link to Filing</th>
+            <th>Status</th>
             <th>Last Updated</th>
           </tr>
         </thead>
@@ -24,6 +25,7 @@
               @else
                 <td>Not Available</td>
               @endif
+              <td>{{ $ticker->status }}</td>
               <td>{{ $ticker->updated_at }}</td>
             </tr>
           @endforeach
