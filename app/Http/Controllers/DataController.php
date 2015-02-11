@@ -121,7 +121,6 @@ class DataController extends Controller {
         foreach($matches as $match){
 
           if($match){
-            dd($match);
             $ticker->holders()->create([
               'total' => str_replace(',', '', $match[1]),
               'source' => $match[0]
