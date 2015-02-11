@@ -27,3 +27,5 @@ Route::get('load', 'DataController@loadTickers');
 Route::get('show', 'DataController@showTickers');
 
 Route::get('spin', 'DataController@spin');
+
+Route::get('holders', 'DataController@spinHolders');

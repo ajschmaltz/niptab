@@ -38,7 +38,7 @@ class DataController extends Controller {
     $filings = file_get_contents($filings_link);
 
     if($this->isInvalidXML($filings)) {
-      $ticker->latest_filing = 'not available';
+      $ticker->latest_filing = '';
       return $ticker->save();
     }
 
@@ -48,7 +48,7 @@ class DataController extends Controller {
     )->toArray();
 
     if($this->hasNoEntry($filings)){
-      $ticker->latest_filing = 'not available';
+      $ticker->latest_filing = '';
       return $ticker->save();
     }
 
@@ -72,6 +72,23 @@ class DataController extends Controller {
     return $match[0];
   }
 
+  public function spinHolders()
+  {
+    $tickers = Ticker::whereStatus(0)
+      ->where('latest_filing', '!=', '')
+      ->where('latest_filing', '!=', 'not available')
+      ->take(5)
+      ->orderBy('updated_at')
+      ->get();
+
+    foreach($tickers as $ticker){
+      $this->getHolders($ticker);
+    }
+
+    return Holder::all();
+
+  }
+
   /**
    * Display a listing of the resource.
    *
@@ -79,6 +96,11 @@ class DataController extends Controller {
    */
   public function getHolders(Ticker $ticker)
   {
+
+    $ticker->status = 1;
+    $ticker->save();
+
+    print $ticker->latest_filing;
 
     $filing = file_get_contents($ticker->latest_filing);
 
@@ -90,12 +112,12 @@ class DataController extends Controller {
 
     foreach($statements as $statement){
 
-      $match = $this->getMatches($statement, $k_file);
+      $match = $this->getMatches($statement, $filing);
 
       if($match){
-        $ticker->holders->create([
-          'total' => $match[0],
-          'source' => $match[1]
+        $ticker->holders()->create([
+          'total' => $match[1],
+          'source' => $match[0]
         ]);
       }
 
