@@ -38,7 +38,8 @@ class DataController extends Controller {
     $filings = file_get_contents($filings_link);
 
     if($this->isInvalidXML($filings)) {
-      $ticker->latest_filing = 2;
+      $ticker->latest_filing = '';
+      $ticker->status = 2;
       return $ticker->save();
     }
 
@@ -95,11 +96,6 @@ class DataController extends Controller {
    */
   public function getHolders(Ticker $ticker)
   {
-
-    if(!filter_var($ticker->latest_filing, FILTER_VALIDATE_URL)){
-      $ticker->status = 2;
-      return $ticker->save();
-    }
 
     $ticker->status = 1;
     $ticker->save();
