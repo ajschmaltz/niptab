@@ -96,7 +96,7 @@ class DataController extends Controller {
   public function getHolders(Ticker $ticker)
   {
 
-    if(!file_exists($ticker->latest_filing)){
+    if(!$this->file_exists_remote($ticker->latest_filing)){
       $ticker->status = 2;
       return $ticker->save();
     }
@@ -180,6 +180,24 @@ class DataController extends Controller {
       $this->getLatestFiling($ticker);
     }
 
+  }
+
+  public function file_exists_remote($url) {
+    $curl = curl_init($url);
+    curl_setopt($curl, CURLOPT_NOBODY, true);
+    //Check connection only
+    $result = curl_exec($curl);
+    //Actual request
+    $ret = false;
+    if ($result !== false) {
+      $statusCode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+      //Check HTTP status code
+      if ($statusCode == 200) {
+        $ret = true;
+      }
+    }
+    curl_close($curl);
+    return $ret;
   }
 
 }
