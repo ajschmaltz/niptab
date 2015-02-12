@@ -97,6 +97,7 @@ class DataController extends Controller {
   {
 
     if(!$this->file_exists_remote($ticker->latest_filing)){
+      dd('got here');
       $ticker->status = 2;
       return $ticker->save();
     }
@@ -107,8 +108,6 @@ class DataController extends Controller {
     $filing = strip_tags(
       html_entity_decode(file_get_contents($ticker->latest_filing))
     );
-
-    dd('got here');
 
     $statements = array();
     $statements = [
