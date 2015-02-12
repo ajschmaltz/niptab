@@ -28,7 +28,7 @@
       <file leaf-file-name="DataController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="21" selection-start="2276" selection-end="2276" vertical-scroll-proportion="0.24954791" vertical-offset="1978" max-vertical-offset="4646">
+            <state line="98" column="65" selection-start="2260" selection-end="2260" vertical-scroll-proportion="0.24954791" vertical-offset="1955" max-vertical-offset="4209">
               <folding />
             </state>
           </provider>
@@ -562,7 +562,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="21" selection-start="2276" selection-end="2276" vertical-scroll-proportion="0.24954791" vertical-offset="1978" max-vertical-offset="4646">
+        <state line="98" column="65" selection-start="2260" selection-end="2260" vertical-scroll-proportion="0.24954791" vertical-offset="1955" max-vertical-offset="4209">
           <folding />
         </state>
       </provider>
