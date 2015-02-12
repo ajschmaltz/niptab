@@ -14,6 +14,7 @@
             <th>Status</th>
             <th>Last Updated</th>
             <th>Holders</th>
+            <th>Potential Holders</th>
             <th>Source</th>
           </tr>
         </thead>
@@ -29,6 +30,13 @@
               @endif
               <td>{{ $ticker->status }}</td>
               <td>{{ $ticker->updated_at }}</td>
+              <th>
+                @foreach($ticker->holders as $holder)
+                  @if ($holder->status == 1)
+                    {{ $holder->total }}
+                  @endif
+                @endforeach
+              </th>
               <td>
                 @foreach($ticker->holders as $holder)
                   <a href="/mark/{{ $holder->id }}">{{ $holder->total }}</a><br/>

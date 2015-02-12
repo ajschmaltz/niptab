@@ -88,6 +88,7 @@ class DataController extends Controller {
       $this->getHolders($ticker);
     }
 
+
   }
 
   /**
@@ -177,6 +178,12 @@ class DataController extends Controller {
       $this->getLatestFiling($ticker);
     }
 
+  }
+
+  public function markHolder($id)
+  {
+    Holder::find($id)->update(['status' => 1]);
+    return back();
   }
 
 }

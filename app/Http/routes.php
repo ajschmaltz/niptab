@@ -29,3 +29,5 @@ Route::get('show', 'DataController@showTickers');
 Route::get('spin', 'DataController@spin');
 
 Route::get('holders', 'DataController@spinHolders');
+
+Route::get('mark/{id}', 'DataController@markHolder');
