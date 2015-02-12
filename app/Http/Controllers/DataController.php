@@ -96,14 +96,17 @@ class DataController extends Controller {
   public function getHolders(Ticker $ticker)
   {
 
+    if(!file_exists($ticker->latest_filing)){
+      $ticker->status = 2;
+      return $ticker->save();
+    }
+
     $ticker->status = 1;
     $ticker->save();
 
     $filing = strip_tags(
       html_entity_decode(file_get_contents($ticker->latest_filing))
     );
-
-    dd($filing);
 
     $statements = array();
     $statements = [

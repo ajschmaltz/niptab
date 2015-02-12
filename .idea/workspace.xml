@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="565b569f-d329-4952-9153-0c485c2471e9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/DataController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/DataController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="niptab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="DataController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="16" selection-start="2360" selection-end="2360" vertical-scroll-proportion="0.5262206" vertical-offset="1963" max-vertical-offset="4140">
+            <state line="104" column="20" selection-start="2350" selection-end="2350" vertical-scroll-proportion="0.5262206" vertical-offset="1940" max-vertical-offset="4209">
               <folding />
             </state>
           </provider>
@@ -563,7 +562,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="16" selection-start="2360" selection-end="2360" vertical-scroll-proportion="0.5262206" vertical-offset="1963" max-vertical-offset="4140">
+        <state line="104" column="20" selection-start="2350" selection-end="2350" vertical-scroll-proportion="0.5262206" vertical-offset="1940" max-vertical-offset="4209">
           <folding />
         </state>
       </provider>
