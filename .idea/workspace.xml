@@ -28,7 +28,7 @@
       <file leaf-file-name="DataController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="3" selection-start="2221" selection-end="2221" vertical-scroll-proportion="0.17457305" vertical-offset="1978" max-vertical-offset="4117">
+            <state line="86" column="30" selection-start="2078" selection-end="2078" vertical-scroll-proportion="0.7855787" vertical-offset="1403" max-vertical-offset="4140">
               <folding />
             </state>
           </provider>
@@ -332,7 +332,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../luscadigital" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistory" value="" />
+    <property name="SearchEverywhereHistory" value="-" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -562,7 +562,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="3" selection-start="2221" selection-end="2221" vertical-scroll-proportion="0.17457305" vertical-offset="1978" max-vertical-offset="4117">
+        <state line="86" column="30" selection-start="2078" selection-end="2078" vertical-scroll-proportion="0.7855787" vertical-offset="1403" max-vertical-offset="4140">
           <folding />
         </state>
       </provider>

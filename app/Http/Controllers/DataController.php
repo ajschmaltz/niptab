@@ -84,6 +84,7 @@ class DataController extends Controller {
       ->get();
 
     foreach($tickers as $ticker){
+      print $ticker->symbol . '<br/>';
       $this->getHolders($ticker);
     }
 
