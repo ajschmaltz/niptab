@@ -108,6 +108,8 @@ class DataController extends Controller {
       html_entity_decode(file_get_contents($ticker->latest_filing))
     );
 
+    dd('got here');
+
     $statements = array();
     $statements = [
       'record holders of the Company',
