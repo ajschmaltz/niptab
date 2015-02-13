@@ -62,16 +62,18 @@ class DataController extends Controller {
 
   }
 
-  public function getMatches($statement, $str)
+  public function getMatches($str)
   {
-    $pattern = '/([\d,]+)\D*' . $statement . '/';
+    $pattern = '/([\d,]+)(?: registered)? (?:share|stock|record)?holders of record/';
     preg_match_all($pattern, $str, $matches, PREG_SET_ORDER);
+
 
     if(! $matches){
       return null;
     }
 
     return $matches;
+    
   }
 
   public function spinHolders()
@@ -114,7 +116,7 @@ class DataController extends Controller {
 
     foreach($statements as $statement){
 
-      $matches = $this->getMatches($statement, $filing);
+      $matches = $this->getMatches($filing);
 
       if(is_array($matches)){
 
