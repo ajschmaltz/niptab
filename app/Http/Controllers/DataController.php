@@ -73,7 +73,7 @@ class DataController extends Controller {
     }
 
     return $matches;
-    
+
   }
 
   public function spinHolders()
@@ -114,21 +114,18 @@ class DataController extends Controller {
       'holders of record'
     ];
 
-    foreach($statements as $statement){
 
-      $matches = $this->getMatches($filing);
+    $matches = $this->getMatches($filing);
 
-      if(is_array($matches)){
+    if(is_array($matches)){
 
-        foreach($matches as $match){
+      foreach($matches as $match){
 
-          if($match){
-            $ticker->holders()->create([
-              'total' => str_replace(',', '', $match[1]),
-              'source' => $match[0]
-            ]);
-          }
-
+        if($match){
+          $ticker->holders()->create([
+            'total' => str_replace(',', '', $match[1]),
+            'source' => $match[0]
+          ]);
         }
 
       }
