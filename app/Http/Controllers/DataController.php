@@ -108,13 +108,6 @@ class DataController extends Controller {
       html_entity_decode(file_get_contents($ticker->latest_filing))
     );
 
-    $statements = array();
-    $statements = [
-      'record holders of the Company',
-      'holders of record'
-    ];
-
-
     $matches = $this->getMatches($filing);
 
     if(is_array($matches)){
