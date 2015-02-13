@@ -64,7 +64,7 @@ class DataController extends Controller {
 
   public function getMatches($str)
   {
-    $pattern = '/(\d+(?:,\d+)?) *(?:registered)? *(?:share|stock|record)?holders *of *record/';
+    $pattern = '/(\d+(?:,\d+)?) *(?:registered)? *(?:[a-z]+)?holders *of *record/';
     preg_match_all($pattern, $str, $matches, PREG_SET_ORDER);
 
 
