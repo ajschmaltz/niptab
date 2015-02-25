@@ -109,6 +109,24 @@ class DataController extends Controller {
       $this->getHolders($ticker);
     }
 
+    // lets do some that have failed...
+
+    $tickers = Ticker::where('latest_filing', '!=', '')
+      ->where('status', 1)
+      ->take(5)
+      ->orderBy('updated_at')
+      ->get();
+
+    foreach($tickers as $ticker){
+      foreach($ticker->holders as $holder){
+        $holder->delete();
+      }
+      print $ticker->symbol . '<br/>';
+      $this->getHolders($ticker);
+    }
+
+
+
 
   }
 
