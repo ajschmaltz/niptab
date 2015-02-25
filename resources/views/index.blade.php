@@ -8,7 +8,7 @@
         <div class="col-md-8">
           {!! $tickers->render() !!}
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 text-right">
           <a class="btn btn-primary" href="/download">Download a CSV</a>
         </div>
       </div>
