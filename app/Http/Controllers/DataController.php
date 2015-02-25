@@ -78,7 +78,7 @@ class DataController extends Controller {
 
   public function getMatches($str)
   {
-    $pattern = '/(\d+(?:,\d+)?) *(?:registered)? *(?:[a-z]+)?holders *of *record/';
+    $pattern = '/(\d+(?:,\d+)?) *(?:common)? *(?:registered)? *(?:[a-z]+)?holders/';
     preg_match_all($pattern, $str, $matches, PREG_SET_ORDER);
 
 
