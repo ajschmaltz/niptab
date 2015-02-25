@@ -8,6 +8,7 @@ use Illuminate\Support\Collection;
 use SimpleHtmlDom\simple_html_dom;
 use SoapBox\Formatter\Formatter;
 use App\Ticker;
+use Monokakure\CSV;
 
 class DataController extends Controller {
 
@@ -64,10 +65,10 @@ class DataController extends Controller {
 
   public function getDownload()
   {
-
-    $formatter = Formatter::make(Ticker::all()->toArray(), Formatter::ARR);
-    dd($formatter->toCsv());
-    return view('download')->withData($formatter->toCsv());
+    return CSV::create(
+      Ticker::all()->toArray(),
+      $header
+    )->render();
   }
 
   public function getMatches($str)
