@@ -78,7 +78,7 @@ class DataController extends Controller {
 
   public function getMatches($str)
   {
-    $pattern = '/(\d+(?:,\d+)?) *(?:common)? *(?:registered)? *(?:[a-z]+)?holders/';
+    $pattern = '/(\d+(?:,\d+)?) *(?:registered|common)? *(?:[a-z]+)?holders *of *(?:record|Common *Stock|our *common *stock)/';
     preg_match_all($pattern, $str, $matches, PREG_SET_ORDER);
 
 
@@ -112,7 +112,7 @@ class DataController extends Controller {
     // lets do some that have failed...
 
     $tickers = Ticker::where('latest_filing', '!=', '')
-      ->where('status', 1)
+      ->where('status', 99)
       ->take(5)
       ->orderBy('updated_at')
       ->get();
@@ -122,7 +122,7 @@ class DataController extends Controller {
         $holder->delete();
       }
       print $ticker->symbol . '<br/>';
-      $this->getHolders($ticker, 99);
+      $this->getHolders($ticker, 98);
     }
 
 

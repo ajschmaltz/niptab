@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="565b569f-d329-4952-9153-0c485c2471e9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/DataController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/DataController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="niptab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="DataController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="0" selection-start="3032" selection-end="3032" vertical-scroll-proportion="-0.2345679" vertical-offset="3330" max-vertical-offset="5267">
+            <state line="114" column="26" selection-start="2670" selection-end="2670" vertical-scroll-proportion="0.18871252" vertical-offset="2515" max-vertical-offset="5267">
               <folding>
                 <element signature="e#39#54#0" expanded="true" />
               </folding>
@@ -80,8 +81,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
-    <option name="y" value="128" />
+    <option name="x" value="-78" />
+    <option name="y" value="250" />
     <option name="width" value="1355" />
     <option name="height" value="685" />
   </component>
@@ -233,7 +234,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="128" width="1355" height="685" extended-state="0" />
+    <frame x="-78" y="250" width="1355" height="685" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -504,7 +505,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="0" selection-start="3032" selection-end="3032" vertical-scroll-proportion="-0.2345679" vertical-offset="3330" max-vertical-offset="5267">
+        <state line="114" column="26" selection-start="2670" selection-end="2670" vertical-scroll-proportion="0.18871252" vertical-offset="2515" max-vertical-offset="5267">
           <folding>
             <element signature="e#39#54#0" expanded="true" />
           </folding>
