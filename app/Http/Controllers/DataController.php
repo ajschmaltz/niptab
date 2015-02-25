@@ -64,8 +64,8 @@ class DataController extends Controller {
 
   public function getDownload()
   {
-    $formatter = Formatter::make(Ticker::all()->toJson(), Formatter::JSON);
-    return view('download')->withData($formatter->toCsv());
+
+    return view('download')->withData('test');
   }
 
   public function getMatches($str)
