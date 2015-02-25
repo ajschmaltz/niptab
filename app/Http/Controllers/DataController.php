@@ -62,6 +62,12 @@ class DataController extends Controller {
 
   }
 
+  public function getDownload()
+  {
+    $formatter = Formatter::make(Ticker::all(), Formatter::JSON);
+    return $formatter->toCsv();
+  }
+
   public function getMatches($str)
   {
     $pattern = '/(\d+(?:,\d+)?) *(?:registered)? *(?:[a-z]+)?holders *of *record/';

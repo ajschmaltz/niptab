@@ -31,3 +31,5 @@ Route::get('spin', 'DataController@spin');
 Route::get('holders', 'DataController@spinHolders');
 
 Route::get('mark/{id}', 'DataController@markHolder');
+
+Route::get('download', 'DataController@getDownload');
