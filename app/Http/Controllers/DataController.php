@@ -122,7 +122,7 @@ class DataController extends Controller {
         $holder->delete();
       }
       print $ticker->symbol . '<br/>';
-      $this->getHolders($ticker, 10);
+      $this->getHolders($ticker, 98);
     }
 
 
