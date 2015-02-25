@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'DataController@showTickers');
 
 Route::get('home', 'HomeController@index');
 
