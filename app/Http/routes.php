@@ -28,6 +28,8 @@ Route::get('show', 'DataController@showTickers');
 
 Route::get('spin', 'DataController@spin');
 
+Route::get('spin/{ticker}', 'DataController@spinOnce');
+
 Route::get('holders', 'DataController@spinHolders');
 
 Route::get('holders/{ticker}', 'DataController@spinHolder');

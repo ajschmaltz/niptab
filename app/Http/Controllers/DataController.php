@@ -192,6 +192,12 @@ class DataController extends Controller {
 
   }
 
+  public function spinOnce($ticker)
+  {
+    $ticker = Ticker::whereSymbol($ticker)->first();
+    $this->getLatestFiling($ticker);
+  }
+
   public function markHolder($id)
   {
     Holder::find($id)->update(['status' => 1]);
