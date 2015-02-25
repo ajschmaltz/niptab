@@ -55,7 +55,13 @@ class DataController extends Controller {
       return $ticker->save();
     }
 
-    $filing_index = file_get_contents($filings['entry'][0]['link']['@attributes']['href']);
+    $entry = array_first($filings['entry'], function($key, $value)
+    {
+      return $value['content']['filing-type'] == '10-K';
+    });
+
+
+    $filing_index = file_get_contents($entry['link']['@attributes']['href']);
 
     $ticker->latest_filing = 'http://www.sec.gov' . $this->html->load($filing_index)->find('#formDiv a')[0]->attr['href'];
     $ticker->status = 0;
