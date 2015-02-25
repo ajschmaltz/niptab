@@ -83,6 +83,11 @@ class DataController extends Controller {
 
 
     if(! $matches){
+      $pattern = '/(?:[a-z]+)?holders *of *record *of *our *common *stock *was *(\d+(?:,\d+)?)/';
+      preg_match_all($pattern, $str, $matches, PREG_SET_ORDER);
+    }
+
+    if(! matches){
       return null;
     }
 
