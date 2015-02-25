@@ -64,7 +64,7 @@ class DataController extends Controller {
 
   public function getDownload()
   {
-
+    return Ticker::all()->toJson();
     return view('download')->withData('test');
   }
 
