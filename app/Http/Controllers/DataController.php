@@ -98,7 +98,7 @@ class DataController extends Controller {
 
   public function spinHolders()
   {
-    $tickers = Ticker::whereStatus(0)
+    $tickers = Ticker::where('status', '<', 2)
       ->where('latest_filing', '!=', '')
       ->where('status', 0)
       ->take(5)
