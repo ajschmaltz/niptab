@@ -106,7 +106,7 @@ class DataController extends Controller {
 
     foreach($tickers as $ticker){
       print $ticker->symbol . '<br/>';
-      $this->getHolders($ticker);
+      $this->getHolders($ticker, 1);
     }
 
     // lets do some that have failed...
@@ -122,7 +122,7 @@ class DataController extends Controller {
         $holder->delete();
       }
       print $ticker->symbol . '<br/>';
-      $this->getHolders($ticker);
+      $this->getHolders($ticker, 99);
     }
 
 
@@ -135,10 +135,10 @@ class DataController extends Controller {
    *
    * @return Response
    */
-  public function getHolders(Ticker $ticker)
+  public function getHolders(Ticker $ticker, $status)
   {
 
-    $ticker->status = 1;
+    $ticker->status = $status;
     $ticker->save();
 
     $filing = strip_tags(
