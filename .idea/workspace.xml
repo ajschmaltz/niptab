@@ -28,7 +28,7 @@
       <file leaf-file-name="DataController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="43" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.42664418" vertical-offset="2047" max-vertical-offset="4876">
+            <state line="101" column="30" selection-start="2328" selection-end="2328" vertical-scroll-proportion="0.46543002" vertical-offset="2047" max-vertical-offset="4853">
               <folding>
                 <element signature="e#39#54#0" expanded="true" />
               </folding>
@@ -39,7 +39,7 @@
       <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="25" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="805">
+            <state line="32" column="52" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="805">
               <folding />
             </state>
           </provider>
@@ -497,14 +497,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="25" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="805">
+        <state line="32" column="52" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="805">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="43" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.42664418" vertical-offset="2047" max-vertical-offset="4876">
+        <state line="101" column="30" selection-start="2328" selection-end="2328" vertical-scroll-proportion="0.46543002" vertical-offset="2047" max-vertical-offset="4853">
           <folding>
             <element signature="e#39#54#0" expanded="true" />
           </folding>
