@@ -112,7 +112,7 @@ class DataController extends Controller {
     // lets do some that have failed...
 
     $tickers = Ticker::where('latest_filing', '!=', '')
-      ->where('status', 10)
+      ->where('status', 1)
       ->take(5)
       ->orderBy('updated_at')
       ->get();
