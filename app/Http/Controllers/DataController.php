@@ -97,7 +97,7 @@ class DataController extends Controller {
 
   public function spinHolder($ticker)
   {
-    Ticker::whereSymbol($ticker)->first();
+    $ticker = Ticker::whereSymbol($ticker)->first();
     $this->getHolders($ticker, 98);
   }
 
