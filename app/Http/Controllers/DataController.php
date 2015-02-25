@@ -87,7 +87,7 @@ class DataController extends Controller {
       preg_match_all($pattern, $str, $matches, PREG_SET_ORDER);
     }
 
-    if(! matches){
+    if(! $matches){
       return null;
     }
 
