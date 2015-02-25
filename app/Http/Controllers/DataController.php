@@ -64,7 +64,7 @@ class DataController extends Controller {
 
   public function getDownload()
   {
-    $json = Ticker::all()->toJson();
+    $json = Ticker::all();
 
     $formatter = Formatter::make($json, Formatter::JSON);
     dd($formatter->toCsv());
