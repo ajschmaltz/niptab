@@ -34,10 +34,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DataController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="3" selection-start="1603" selection-end="1603" vertical-scroll-proportion="0.8060708" vertical-offset="856" max-vertical-offset="4255">
+            <state line="67" column="59" selection-start="1739" selection-end="1739" vertical-scroll-proportion="0.0" vertical-offset="856" max-vertical-offset="4255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="download.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/download.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="11" selection-start="202" selection-end="202" vertical-scroll-proportion="0.37953794" vertical-offset="0" max-vertical-offset="606">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529">
               <folding />
             </state>
           </provider>
@@ -80,6 +98,7 @@
         <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/DataController.php" />
+        <option value="$PROJECT_DIR$/resources/views/download.blade.php" />
       </list>
     </option>
   </component>
@@ -450,13 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_11_012144_holders.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="4" selection-start="215" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="897">
@@ -515,7 +527,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DataController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="3" selection-start="1603" selection-end="1603" vertical-scroll-proportion="0.8060708" vertical-offset="856" max-vertical-offset="4255">
+        <state line="67" column="59" selection-start="1739" selection-end="1739" vertical-scroll-proportion="0.0" vertical-offset="856" max-vertical-offset="4255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/download.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="11" selection-start="202" selection-end="202" vertical-scroll-proportion="0.37953794" vertical-offset="0" max-vertical-offset="606">
           <folding />
         </state>
       </provider>
