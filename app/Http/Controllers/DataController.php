@@ -8,7 +8,7 @@ use Illuminate\Support\Collection;
 use SimpleHtmlDom\simple_html_dom;
 use SoapBox\Formatter\Formatter;
 use App\Ticker;
-use Monokakure\CSV;
+use CSV;
 
 class DataController extends Controller {
 
