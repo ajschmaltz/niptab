@@ -112,7 +112,7 @@ class DataController extends Controller {
     // lets do some that have failed...
 
     $tickers = Ticker::where('latest_filing', '!=', '')
-      ->where('status', 99)
+      ->where('status', 1)
       ->take(5)
       ->orderBy('updated_at')
       ->get();
@@ -122,7 +122,7 @@ class DataController extends Controller {
         $holder->delete();
       }
       print $ticker->symbol . '<br/>';
-      $this->getHolders($ticker, 98);
+      $this->getHolders($ticker, 10);
     }
 
 
