@@ -72,7 +72,7 @@ class DataController extends Controller {
   public function getDownload()
   {
     return CSV::create(
-      Ticker::all()->toArray()
+      Ticker::with('holders')->get()->toArray()
     )->render();
   }
 
