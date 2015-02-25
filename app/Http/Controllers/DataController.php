@@ -69,10 +69,17 @@ class DataController extends Controller {
 
   }
 
-  public function getDownload()
+  public function getDownloadHolders()
   {
     return CSV::create(
-      Ticker::with('holders')->get()->toArray()
+      Ticker::all()->toArray()
+    )->render();
+  }
+
+  public function getDownloadTickers()
+  {
+    return CSV::create(
+      Holder::all()->toArray()
     )->render();
   }
 

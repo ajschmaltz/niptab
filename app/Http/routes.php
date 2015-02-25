@@ -36,4 +36,6 @@ Route::get('holders/{ticker}', 'DataController@spinHolder');
 
 Route::get('mark/{id}', 'DataController@markHolder');
 
-Route::get('download', 'DataController@getDownload');
+Route::get('download/tickers', 'DataController@getDownloadTickers');
+
+Route::get('download/holders', 'DataController@getDownloadHolders');

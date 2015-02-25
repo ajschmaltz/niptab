@@ -9,7 +9,10 @@
           {!! $tickers->render() !!}
         </div>
         <div class="col-md-4 text-right">
-          <a style="margin-top: 20px;" class="btn btn-primary" href="/download">Download a CSV</a>
+          <div style="margin-top: 20px;" class="btn-group" role="group" aria-label="...">
+            <a class="btn btn-primary" href="/download/holders">Download Holders</a>
+            <a class="btn btn-primary" href="/download/tickers">Download Tickers</a>
+          </div>
         </div>
       </div>
       <table class="table">
