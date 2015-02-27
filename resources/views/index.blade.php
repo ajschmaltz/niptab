@@ -23,7 +23,7 @@
             <th>Symbol</th>
             <th>Filing</th>
             <th>Last Updated</th>
-            <th>Finds</th>
+            <th>Found</th>
             <th>Value</th>
             <th>Source</th>
           </tr>

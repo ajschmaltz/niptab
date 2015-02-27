@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="565b569f-d329-4952-9153-0c485c2471e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/filings.blade.php" afterPath="$PROJECT_DIR$/resources/views/filings.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/tickers.blade.php" afterPath="$PROJECT_DIR$/resources/views/tickers.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/search.blade.php" afterPath="$PROJECT_DIR$/resources/views/search.blade.php" />
     </list>
     <ignored path="niptab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="search.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/search.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="34" selection-start="315" selection-end="315" vertical-scroll-proportion="0.13207547" vertical-offset="199" max-vertical-offset="1403">
+            <state line="20" column="23" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="1403">
               <folding />
             </state>
           </provider>
@@ -60,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="6" selection-start="515" selection-end="1529" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="1403">
+            <state line="25" column="21" selection-start="717" selection-end="717" vertical-scroll-proportion="0.5265866" vertical-offset="268" max-vertical-offset="1403">
               <folding />
             </state>
           </provider>
@@ -181,11 +176,11 @@
         <option value="$PROJECT_DIR$/resources/views/types.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/filings.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/tickers.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
         <option value="$PROJECT_DIR$/resources/views/search.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
       </list>
     </option>
   </component>
@@ -886,16 +881,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/search.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="6" selection-start="515" selection-end="1529" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="1403">
+        <state line="20" column="23" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="1403">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/search.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="315" selection-end="315" vertical-scroll-proportion="0.13207547" vertical-offset="199" max-vertical-offset="1403">
+        <state line="25" column="21" selection-start="717" selection-end="717" vertical-scroll-proportion="0.5265866" vertical-offset="268" max-vertical-offset="1403">
           <folding />
         </state>
       </provider>
