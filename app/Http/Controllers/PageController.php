@@ -11,9 +11,16 @@ use App\Filing;
 
 class PageController extends Controller {
 
-  public function showData()
+  public function showData(Request $request)
   {
-    return view('index')->withData(Datum::paginate(50));
+
+    if($request->get('symbol')){
+      $data = Datum::where('symbol', $request->get('symbol'))->paginate(50);
+    }else{
+      $data = Datum::paginate(50);
+    }
+    
+    return view('index')->withData($data);
   }
 
   public function showTickers()

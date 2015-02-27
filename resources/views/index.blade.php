@@ -8,6 +8,14 @@
       <hr/>
       <div class="row">
         <div class="col-md-8">
+          {!! Form::open(['method' => 'GET', 'class' => 'form-inline']) !!}
+            <div class="form-group">
+              {!! Form::text('symbol', null, ['class' => 'form-control', 'placeholder' => 'Symbol']) !!}
+            </div>
+            <div class="form-group">
+              {!! Form::submit('Find', ['class' => 'btn btn-default']) !!}
+            </div>
+          {!! Form::close() !!}
           {!! $data->render() !!}
         </div>
         <div class="col-md-4 text-right">
