@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="565b569f-d329-4952-9153-0c485c2471e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/create-type.blade.php" afterPath="$PROJECT_DIR$/resources/views/create-type.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/help.blade.php" afterPath="$PROJECT_DIR$/resources/views/help.blade.php" />
     </list>
     <ignored path="niptab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,19 +66,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create-type.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="create-type.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/create-type.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="46" selection-start="460" selection-end="460" vertical-scroll-proportion="0.4754386" vertical-offset="5" max-vertical-offset="621">
+            <state line="18" column="11" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="621">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="help.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="76" selection-start="1899" selection-end="1899" vertical-scroll-proportion="0.0" vertical-offset="603" max-vertical-offset="1426">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="help.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/help.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="40" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+            <state line="18" column="157" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.63684213" vertical-offset="51" max-vertical-offset="621">
               <folding />
             </state>
           </provider>
@@ -109,15 +117,6 @@
         <entry file="file://$PROJECT_DIR$/resources/views/filings.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="14" column="76" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="1242">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="upload-tickers.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/upload-tickers.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="30" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621">
               <folding />
             </state>
           </provider>
@@ -162,7 +161,6 @@
         <option value="$PROJECT_DIR$/app/Ticker.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_02_11_011759_tickers.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TickerController.php" />
-        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FilingController.php" />
         <option value="$PROJECT_DIR$/resources/views/create-pattern.blade.php" />
         <option value="$PROJECT_DIR$/app/Commands/GetAllFilingsForTicker.php" />
@@ -175,9 +173,10 @@
         <option value="$PROJECT_DIR$/resources/views/tickers.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/DownloadController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/resources/views/help.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
         <option value="$PROJECT_DIR$/resources/views/create-type.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/help.blade.php" />
       </list>
     </option>
   </component>
@@ -699,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="68" selection-start="1948" selection-end="1948" vertical-scroll-proportion="0.61214167" vertical-offset="603" max-vertical-offset="1403">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Bus/DispatchesCommands.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="21" selection-start="573" selection-end="573" vertical-scroll-proportion="0.25742576" vertical-offset="396" max-vertical-offset="1127">
@@ -787,13 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/help.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="40" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="35" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="1219">
@@ -821,7 +806,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/create-type.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="46" selection-start="460" selection-end="460" vertical-scroll-proportion="0.4754386" vertical-offset="5" max-vertical-offset="621">
+        <state line="18" column="11" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="621">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="76" selection-start="1899" selection-end="1899" vertical-scroll-proportion="0.0" vertical-offset="603" max-vertical-offset="1426">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/help.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="157" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.63684213" vertical-offset="51" max-vertical-offset="621">
           <folding />
         </state>
       </provider>

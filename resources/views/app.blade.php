@@ -38,6 +38,7 @@
           <li @if (Request::is('filings*')) class="active" @endif><a href="/filings">Filings</a></li>
 					<li @if (Request::is('patterns*')) class="active" @endif><a href="/patterns">Patterns</a></li>
           <li @if (Request::is('types*')) class="active" @endif><a href="/types">Types</a></li>
+          <li @if (Request::is('help')) class="active" @endif><a href="/help">Help</a></li>
 				</ul>
         <div class="navbar-form navbar-right">
           <a class="btn btn-danger" href="/truncate">Truncate Tables</a>
