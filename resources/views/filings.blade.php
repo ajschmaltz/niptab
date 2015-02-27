@@ -13,7 +13,6 @@
         <div class="col-md-4 text-right">
           <div style="margin-top: 20px;" class="btn-group" role="group" aria-label="...">
             <a class="btn btn-success" href="/filings/download">Download</a>
-            <a class="btn btn-danger" href="/filings/truncate">Truncate</a>
           </div>
         </div>
       </div>

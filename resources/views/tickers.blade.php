@@ -14,7 +14,6 @@
           <div style="margin-top: 20px;" class="btn-group" role="group" aria-label="...">
             <a class="btn btn-primary" href="/tickers/upload">Upload</a>
             <a class="btn btn-success" href="/tickers/download">Download</a>
-            <a class="btn btn-danger" href="/tickers/truncate">Truncate</a>
           </div>
         </div>
       </div>
