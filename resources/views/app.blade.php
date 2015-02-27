@@ -41,7 +41,14 @@
           <li @if (Request::is('help')) class="active" @endif><a href="/help">Help</a></li>
 				</ul>
         <div class="navbar-form navbar-right">
-          <a class="btn btn-danger" href="/truncate">Truncate Data</a>
+          {!! Form::open(['method' => 'GET', 'url' =>'search', 'class' => 'form-inline']) !!}
+          <div class="form-group">
+            {!! Form::text('symbol', null, ['class' => 'form-control', 'placeholder' => 'Symbol']) !!}
+          </div>
+          <div class="form-group">
+            {!! Form::submit('Find', ['class' => 'btn btn-primary']) !!}
+          </div>
+          {!! Form::close() !!}
         </div>
 			</div>
 		</div>

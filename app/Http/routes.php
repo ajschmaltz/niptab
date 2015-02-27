@@ -50,3 +50,5 @@ Route::get('parse', 'FilingController@getParse');
 Route::get('load', 'FilingController@getLoad');
 
 Route::get('truncate', 'PageController@getTruncate');
+
+Route::get('search', 'PageController@showSearch');

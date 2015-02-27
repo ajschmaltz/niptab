@@ -11,16 +11,9 @@ use App\Filing;
 
 class PageController extends Controller {
 
-  public function showData(Request $request)
+  public function showData()
   {
-
-    if($request->get('symbol')){
-      $data = Ticker::where('symbol', $request->get('symbol'))->data->paginate(50);
-    }else{
-      $data = Datum::paginate(50);
-    }
-
-    return view('index')->withData($data);
+    return view('index')->withData(Datum::paginate(50));
   }
 
   public function showTickers()
@@ -73,6 +66,12 @@ class PageController extends Controller {
   public function showHelp()
   {
     return view('help');
+  }
+
+  public function showSearch(Request $request)
+  {
+    $ticker = Ticker::where('symbol', $request->get('symbol'))->with(['filings', 'filings.type', 'filings.data', 'filings.data.pattern'])->first();
+    return view('search')->withTicker($ticker)->withSymbol($request->get('symbol'));
   }
 
 }

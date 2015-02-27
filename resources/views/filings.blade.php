@@ -42,6 +42,7 @@
           @endforelse
         </tbody>
       </table>
+      <a class="btn btn-danger pull-right" href="/truncate" style="margin-top: 20px;">Truncate Data</a>
       {!! $filings->render() !!}
 	</div>
 </div>
