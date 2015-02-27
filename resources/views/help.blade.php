@@ -16,7 +16,7 @@
       <h3>Uploading Tickers</h3>
       <p>Tickers are uploaded from CSV files.  The file needs to have one column named "Symbol" with the stock symbol.  It can have additional columns but they wil not be saved.</p>
       <h3>Truncating Data</h3>
-      <p>Truncating data erases all data in all tables.  If you have anything you want to save, download the data first.  Remember to save your patterns too.</p>
+      <p>Truncating data erases all data in the data, tickers and filing tables.  If you have anything you want to save, download the data first.</p>
     </div>
 </div>
 @endsection

@@ -41,7 +41,7 @@
           <li @if (Request::is('help')) class="active" @endif><a href="/help">Help</a></li>
 				</ul>
         <div class="navbar-form navbar-right">
-          <a class="btn btn-danger" href="/truncate">Truncate Tables</a>
+          <a class="btn btn-danger" href="/truncate">Truncate Data</a>
         </div>
 			</div>
 		</div>

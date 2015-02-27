@@ -59,9 +59,7 @@ class PageController extends Controller {
   {
     Datum::truncate();
     Filing::truncate();
-    Pattern::truncate();
     Ticker::truncate();
-    Type::truncate();
     return back();
   }
 

@@ -20,6 +20,7 @@
         <tr>
           <th>ID</th>
           <th>Name</th>
+          <th>Actions</th>
         </tr>
         </thead>
         <tbody>
@@ -27,6 +28,7 @@
             <tr>
               <td>{{ $type->id }}</td>
               <td>{{ $type->name }}</td>
+              <td><a href="/types/{{ $type->id }}/delete">Delete</a></td>
             </tr>
           @empty
             <tr>

@@ -16,4 +16,10 @@ class TypeController extends Controller {
     return redirect('types');
   }
 
+  public function deleteType($id)
+  {
+    Type::destroy($id);
+    return back();
+  }
+
 }

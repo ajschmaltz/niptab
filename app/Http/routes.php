@@ -35,11 +35,15 @@ Route::get('types/create', 'PageController@createTypes');
 
 Route::post('types/create', 'TypeController@saveType');
 
+Route::get('types/{id}/delete', 'TypeController@deleteType');
+
 Route::get('patterns', 'PageController@getPatterns');
 
 Route::get('patterns/create', 'PageController@createPatterns');
 
 Route::post('patterns/create', 'PatternController@savePattern');
+
+Route::get('patterns/{id}/delete', 'PatternController@deletePattern');
 
 Route::get('parse', 'FilingController@getParse');
 

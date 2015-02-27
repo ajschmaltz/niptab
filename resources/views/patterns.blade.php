@@ -22,6 +22,7 @@
           <th>Finds</th>
           <th>Pattern</th>
           <th>Type</th>
+          <th>Action</th>
         </tr>
         </thead>
         <tbody>
@@ -31,6 +32,7 @@
               <td>{{ $pattern->finds }}</td>
               <td>{{ $pattern->pattern }}</td>
               <td>{{ $pattern->type->name }}</td>
+              <td><a href="/patterns/{{ $pattern->id }}/delete">Delete</a></td>
             </tr>
           @empty
             <tr>

@@ -18,4 +18,10 @@ class PatternController extends Controller {
     return redirect('patterns');
   }
 
+  public function deletePattern($id)
+  {
+    Pattern::destroy($id);
+    return back();
+  }
+
 }
