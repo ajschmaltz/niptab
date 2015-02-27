@@ -4,6 +4,9 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use CSV;
+use App\Ticker;
+use App\Datum;
+use App\Filing;
 
 class DownloadController extends Controller {
 

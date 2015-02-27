@@ -95,7 +95,7 @@
       <file leaf-file-name="DownloadController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DownloadController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="8" selection-start="136" selection-end="136" vertical-scroll-proportion="0.19725558" vertical-offset="0" max-vertical-offset="851">
+            <state line="8" column="15" selection-start="183" selection-end="183" vertical-scroll-proportion="0.2761578" vertical-offset="23" max-vertical-offset="920">
               <folding>
                 <element signature="e#39#61#0" expanded="true" />
               </folding>
@@ -817,7 +817,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DownloadController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="136" selection-end="136" vertical-scroll-proportion="0.19725558" vertical-offset="0" max-vertical-offset="851">
+        <state line="8" column="15" selection-start="183" selection-end="183" vertical-scroll-proportion="0.2761578" vertical-offset="23" max-vertical-offset="920">
           <folding>
             <element signature="e#39#61#0" expanded="true" />
           </folding>
