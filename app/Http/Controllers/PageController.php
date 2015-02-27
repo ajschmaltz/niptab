@@ -15,11 +15,11 @@ class PageController extends Controller {
   {
 
     if($request->get('symbol')){
-      $data = Datum::where('symbol', $request->get('symbol'))->paginate(50);
+      $data = Ticker::where('symbol', $request->get('symbol'))->data->paginate(50);
     }else{
       $data = Datum::paginate(50);
     }
-    
+
     return view('index')->withData($data);
   }
 

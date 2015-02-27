@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="565b569f-d329-4952-9153-0c485c2471e9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
     </list>
     <ignored path="niptab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="PageController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="4" selection-start="466" selection-end="466" vertical-scroll-proportion="0.8473684" vertical-offset="0" max-vertical-offset="1932">
+            <state line="17" column="70" selection-start="403" selection-end="403" vertical-scroll-proportion="0.68596494" vertical-offset="0" max-vertical-offset="1932">
               <folding>
                 <element signature="e#39#61#0" expanded="true" />
               </folding>
@@ -884,7 +883,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="4" selection-start="466" selection-end="466" vertical-scroll-proportion="0.8473684" vertical-offset="0" max-vertical-offset="1932">
+        <state line="17" column="70" selection-start="403" selection-end="403" vertical-scroll-proportion="0.68596494" vertical-offset="0" max-vertical-offset="1932">
           <folding>
             <element signature="e#39#61#0" expanded="true" />
           </folding>
