@@ -16,7 +16,7 @@
           </div>
         </div>
       </div>
-      <table class="table">
+      <table class="table table-striped">
         <thead>
           <tr>
             <th>ID</th>
