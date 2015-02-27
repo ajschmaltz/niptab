@@ -10,7 +10,7 @@
         {!! Form::open() !!}
         <div class="form-group">
           {!! Form::label('Name:') !!}
-          {!! Form::text('name', null, ['class' => 'form-control']) !!}
+          {!! Form::select('name',$types, null, ['class' => 'form-control']) !!}
         </div>
         <div class="form-group">
           {!! Form::submit('Save', ['class' => 'btn btn-default']) !!}

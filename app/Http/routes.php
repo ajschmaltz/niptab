@@ -13,6 +13,8 @@
 
 Route::get('/', 'PageController@showData');
 
+Route::get('help', 'pageController@showHelp');
+
 Route::get('data/download', 'DownloadController@downloadData');
 
 Route::get('tickers', 'PageController@showTickers');
