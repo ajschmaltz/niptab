@@ -27,13 +27,19 @@
           </tr>
         </thead>
         <tbody>
-          @foreach($tickers as $ticker)
+          @forelse($tickers as $ticker)
             <tr>
               <td>{{ $ticker->id }}</td>
               <td>{{ $ticker->symbol }}</td>
               <td>{{ $ticker->updated_at->format("F j, Y, g:i a") }}</td>
             </tr>
-          @endforeach
+          @empty
+            <tr>
+              <td colspan="3">
+                <div class="well">There is no data to show.</div>
+              </td>
+            </tr>
+          @endforelse
         </tbody>
       </table>
       {!! $tickers->render() !!}

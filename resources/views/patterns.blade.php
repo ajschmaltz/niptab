@@ -22,19 +22,23 @@
           <th>Finds</th>
           <th>Pattern</th>
           <th>Type</th>
-          <th>Actions</th>
         </tr>
         </thead>
         <tbody>
-          @foreach($patterns as $pattern)
+          @forelse($patterns as $pattern)
             <tr>
               <td>{{ $pattern->id }}</td>
               <td>{{ $pattern->finds }}</td>
               <td>{{ $pattern->pattern }}</td>
               <td>{{ $pattern->type->name }}</td>
-              <td>Edit / Delete</td>
             </tr>
-          @endforeach
+          @empty
+            <tr>
+              <td colspan="4">
+                <div class="well">There is no data to show.</div>
+              </td>
+            </tr>
+          @endforelse
         </tbody>
       </table>
     </div>

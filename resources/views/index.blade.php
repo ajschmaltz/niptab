@@ -30,7 +30,7 @@
           </tr>
         </thead>
         <tbody>
-          @foreach($data as $datum)
+          @forelse($data as $datum)
             <tr>
               <td>{{ $datum->id }}</td>
               <td>{{ $datum->filing->ticker->symbol }}</td>
@@ -40,7 +40,13 @@
               <th>{{ $datum->value }}</th>
               <td>{{ $datum->source }}</td>
             </tr>
-          @endforeach
+          @empty
+            <tr>
+              <td colspan="7">
+                <div class="well">There is no data to show.</div>
+              </td>
+            </tr>
+          @endforelse
         </tbody>
       </table>
       {!! $data->render() !!}

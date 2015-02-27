@@ -27,14 +27,20 @@
           </tr>
         </thead>
         <tbody>
-          @foreach($filings as $filing)
+          @forelse($filings as $filing)
             <tr>
               <td>{{ $filing->id }}</td>
               <td>{{ $filing->ticker->symbol }}</td>
               <td>{{ $filing->type->name }}</td>
               <td>{{ $filing->link }}</td>
             </tr>
-          @endforeach
+          @empty
+            <tr>
+              <td colspan="4">
+                <div class="well">There is no data to show.</div>
+              </td>
+            </tr>
+          @endforelse
         </tbody>
       </table>
       {!! $filings->render() !!}

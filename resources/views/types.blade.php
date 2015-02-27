@@ -20,17 +20,21 @@
         <tr>
           <th>ID</th>
           <th>Name</th>
-          <th>Actions</th>
         </tr>
         </thead>
         <tbody>
-          @foreach($types as $type)
+          @forelse($types as $type)
             <tr>
               <td>{{ $type->id }}</td>
               <td>{{ $type->name }}</td>
-              <td>Edit / Delete</td>
             </tr>
-          @endforeach
+          @empty
+            <tr>
+              <td colspan="2">
+                <div class="well">There is no data to show.</div>
+              </td>
+            </tr>
+          @endforelse
         </tbody>
       </table>
     </div>
