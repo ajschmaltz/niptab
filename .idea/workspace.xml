@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="565b569f-d329-4952-9153-0c485c2471e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
     </list>
     <ignored path="niptab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,12 +65,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DownloadController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DownloadController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DownloadController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="16" selection-start="516" selection-end="516" vertical-scroll-proportion="1.025729" vertical-offset="0" max-vertical-offset="828">
+            <state line="20" column="3" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="828">
               <folding>
                 <element signature="e#39#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="52" selection-start="556" selection-end="556" vertical-scroll-proportion="0.60548884" vertical-offset="38" max-vertical-offset="1173">
+              <folding>
+                <element signature="e#7#392#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,15 +100,6 @@
         <entry file="file://$PROJECT_DIR$/resources/views/filings.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="14" column="76" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="1242">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetAllFilingsForTicker.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Commands/GetAllFilingsForTicker.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="18" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="2323">
               <folding />
             </state>
           </provider>
@@ -162,7 +164,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/TickerController.php" />
         <option value="$PROJECT_DIR$/resources/views/create-type.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FilingController.php" />
         <option value="$PROJECT_DIR$/resources/views/create-pattern.blade.php" />
         <option value="$PROJECT_DIR$/app/Commands/GetAllFilingsForTicker.php" />
@@ -175,6 +176,7 @@
         <option value="$PROJECT_DIR$/resources/views/tickers.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/DownloadController.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
       </list>
     </option>
   </component>
@@ -789,15 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="16" selection-start="1164" selection-end="1164" vertical-scroll-proportion="1.1183534" vertical-offset="245" max-vertical-offset="1081">
-          <folding>
-            <element signature="e#7#392#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="3" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0" vertical-offset="866" max-vertical-offset="1702">
@@ -809,9 +802,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DownloadController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="16" selection-start="516" selection-end="516" vertical-scroll-proportion="1.025729" vertical-offset="0" max-vertical-offset="828">
+        <state line="20" column="3" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="828">
           <folding>
             <element signature="e#39#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="52" selection-start="556" selection-end="556" vertical-scroll-proportion="0.60548884" vertical-offset="38" max-vertical-offset="1173">
+          <folding>
+            <element signature="e#7#392#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -13,15 +13,19 @@
 
 Route::get('/', 'PageController@showData');
 
+Route::get('data/download', 'DownloadController@downloadData');
+
 Route::get('tickers', 'PageController@showTickers');
 
-Route::get('tickers/download', 'DataController@getDownloadTickers');
+Route::get('tickers/download', 'DownloadController@downloadTickers');
 
 Route::get('tickers/upload', 'PageController@uploadTickers');
 
 Route::post('tickers/upload', 'TickerController@uploadTickers');
 
 Route::get('filings', 'PageController@showFilings');
+
+Route::get('filings/download', 'DownloadController@downloadFilings');
 
 Route::get('types', 'PageController@getTypes');
 
