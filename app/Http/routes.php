@@ -11,31 +11,32 @@
 |
 */
 
-Route::get('/', 'DataController@showTickers');
+Route::get('/', 'PageController@showData');
 
-Route::get('home', 'HomeController@index');
+Route::get('tickers', 'PageController@showTickers');
 
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+Route::get('tickers/download', 'DataController@getDownloadTickers');
 
-Route::get('10k/{ticker}', 'DataController@index');
+Route::get('tickers/upload', 'PageController@uploadTickers');
 
-Route::get('load', 'DataController@loadTickers');
+Route::post('tickers/upload', 'TickerController@uploadTickers');
 
-Route::get('show', 'DataController@showTickers');
+Route::get('filings', 'PageController@showFilings');
 
-Route::get('spin', 'DataController@spin');
+Route::get('types', 'PageController@getTypes');
 
-Route::get('spin/{ticker}', 'DataController@spinOnce');
+Route::get('types/create', 'PageController@createTypes');
 
-Route::get('holders', 'DataController@spinHolders');
+Route::post('types/create', 'TypeController@saveType');
 
-Route::get('holders/{ticker}', 'DataController@spinHolder');
+Route::get('patterns', 'PageController@getPatterns');
 
-Route::get('mark/{id}', 'DataController@markHolder');
+Route::get('patterns/create', 'PageController@createPatterns');
 
-Route::get('download/tickers', 'DataController@getDownloadTickers');
+Route::post('patterns/create', 'PatternController@savePattern');
 
-Route::get('download/holders', 'DataController@getDownloadHolders');
+Route::get('parse', 'FilingController@getParse');
+
+Route::get('load', 'FilingController@getLoad');
+
+Route::get('truncate', 'PageController@getTruncate');

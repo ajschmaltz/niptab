@@ -145,6 +145,7 @@ return [
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
     'Monokakure\CSV\CSVServiceProvider',
+    'Illuminate\Html\HtmlServiceProvider',
 
 	],
 
@@ -194,7 +195,8 @@ return [
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
     'CSV'       => 'Monokakure\CSV\CSVFacade',
+    'Form'      => 'Illuminate\Html\FormFacade',
 
-	],
+  ],
 
 ];

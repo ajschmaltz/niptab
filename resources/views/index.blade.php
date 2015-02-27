@@ -4,14 +4,16 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
+      <h1>Data</h1>
+      <hr/>
       <div class="row">
         <div class="col-md-8">
-          {!! $tickers->render() !!}
+          {!! $data->render() !!}
         </div>
         <div class="col-md-4 text-right">
           <div style="margin-top: 20px;" class="btn-group" role="group" aria-label="...">
-            <a class="btn btn-primary" href="/download/holders">Download Holders</a>
-            <a class="btn btn-primary" href="/download/tickers">Download Tickers</a>
+            <a class="btn btn-success" href="/data/download">Download</a>
+            <a class="btn btn-danger" href="/data/truncate">Truncate</a>
           </div>
         </div>
       </div>
@@ -20,48 +22,28 @@
           <tr>
             <th>ID</th>
             <th>Symbol</th>
-            <th>Link to Filing</th>
-            <th>Status</th>
+            <th>Filing</th>
             <th>Last Updated</th>
-            <th>Holders</th>
-            <th>Potential Holders</th>
+            <th>Finds</th>
+            <th>Value</th>
             <th>Source</th>
           </tr>
         </thead>
         <tbody>
-          @foreach($tickers as $ticker)
+          @foreach($data as $datum)
             <tr>
-              <td>{{ $ticker->id }}</td>
-              <td>{{ $ticker->symbol }}</td>
-              @if(!empty($ticker->latest_filing) && $ticker->latest_filing != 'not available')
-                <td><a href="{{ $ticker->latest_filing }}">10-K</a></td>
-              @else
-                <td>Not Available</td>
-              @endif
-              <td>{{ $ticker->status }}</td>
-              <td>{{ $ticker->updated_at }}</td>
-              <th>
-                @foreach($ticker->holders as $holder)
-                  @if ($holder->status == 1)
-                    {{ $holder->total }}
-                  @endif
-                @endforeach
-              </th>
-              <td>
-                @foreach($ticker->holders as $holder)
-                  <a href="/mark/{{ $holder->id }}">{{ $holder->total }}</a><br/>
-                @endforeach
-              </td>
-              <td>
-                @foreach($ticker->holders as $holder)
-                  {{ $holder->source }}<br/>
-                @endforeach
-              </td>
+              <td>{{ $datum->id }}</td>
+              <td>{{ $datum->filing->ticker->symbol }}</td>
+              <td><a href="{{ $datum->filing->link }}">{{ $datum->filing->type->name }}</a></td>
+              <td>{{ $datum->updated_at->format("F j, Y, g:i a") }}</td>
+              <td>{{ $datum->pattern->finds }}</td>
+              <th>{{ $datum->value }}</th>
+              <td>{{ $datum->source }}</td>
             </tr>
           @endforeach
         </tbody>
       </table>
-      {!! $tickers->render() !!}
+      {!! $data->render() !!}
 	</div>
 </div>
 @endsection

@@ -4,11 +4,16 @@ use Illuminate\Database\Eloquent\Model;
 
 class Ticker extends Model {
 
-  protected $fillable = ['symbol', 'exchange'];
+  protected $fillable = ['symbol'];
 
   public function holders()
   {
     return $this->hasMany(Holder::class);
+  }
+
+  public function filings()
+  {
+    return $this->hasMany(Filing::class);
   }
 
 }

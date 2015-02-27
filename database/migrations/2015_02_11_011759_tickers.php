@@ -16,8 +16,6 @@ class Tickers extends Migration {
     {
       $table->increments('id');
       $table->string('symbol');
-      $table->string('exchange');
-      $table->string('latest_filing');
       $table->timestamps();
     });
 	}

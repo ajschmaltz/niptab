@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class Holders extends Migration {
+class CreateTypesTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -12,13 +12,12 @@ class Holders extends Migration {
 	 */
 	public function up()
 	{
-    Schema::create('holders', function(Blueprint $table)
-    {
-      $table->increments('id');
-      $table->integer('total');
-      $table->string('source');
-      $table->timestamps();
-    });
+		Schema::create('types', function(Blueprint $table)
+		{
+			$table->increments('id');
+      $table->string('name');
+			$table->timestamps();
+		});
 	}
 
 	/**
@@ -28,7 +27,7 @@ class Holders extends Migration {
 	 */
 	public function down()
 	{
-    Schema::drop('holders');
+		Schema::drop('types');
 	}
 
 }
