@@ -50,8 +50,8 @@ class ParseFiling extends Command implements SelfHandling {
     foreach($matches as $match){
 
       $value = str_replace(',', '', $match[1]);
-
-      $filing->data()->where('value', $value)->where('pattern_id', $pattern->id)->delete();
+      // TODO: Somehow delete duplicates
+      // $filing->data()->where('value', $value)->where('pattern_id', $pattern->id)->delete();
 
       $filing->data()->create([
         'value' => $value,
