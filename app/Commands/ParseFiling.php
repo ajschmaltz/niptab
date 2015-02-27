@@ -49,6 +49,8 @@ class ParseFiling extends Command implements SelfHandling {
 
     foreach($matches as $match){
 
+      $filing->data()->where('value', $match[1])->where('pattern_id', $pattern->id)->delete();
+
       $filing->data()->create([
         'value' => str_replace(',', '', $match[1]),
         'source' => $match[0],
