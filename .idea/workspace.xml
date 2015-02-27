@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="565b569f-d329-4952-9153-0c485c2471e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PatternController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PatternController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/TypeController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TypeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/help.blade.php" afterPath="$PROJECT_DIR$/resources/views/help.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/patterns.blade.php" afterPath="$PROJECT_DIR$/resources/views/patterns.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/types.blade.php" afterPath="$PROJECT_DIR$/resources/views/types.blade.php" />
     </list>
     <ignored path="niptab.iws" />
@@ -61,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="types.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="types.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/types.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="21" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="1150">
+            <state line="17" column="39" selection-start="522" selection-end="522" vertical-scroll-proportion="0.13207547" vertical-offset="314" max-vertical-offset="1150">
               <folding />
             </state>
           </provider>
@@ -90,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TypeController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TypeController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TypeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="28" selection-start="364" selection-end="364" vertical-scroll-proportion="0.5917667" vertical-offset="0" max-vertical-offset="644">
+            <state line="18" column="28" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="644">
               <folding />
             </state>
           </provider>
@@ -181,11 +174,11 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
         <option value="$PROJECT_DIR$/resources/views/help.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/patterns.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/types.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PatternController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FilingController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TypeController.php" />
+        <option value="$PROJECT_DIR$/resources/views/types.blade.php" />
       </list>
     </option>
   </component>
@@ -858,13 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/types.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="21" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="1150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="67" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.7890223" vertical-offset="575" max-vertical-offset="1311">
@@ -892,7 +878,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TypeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="28" selection-start="364" selection-end="364" vertical-scroll-proportion="0.5917667" vertical-offset="0" max-vertical-offset="644">
+        <state line="18" column="28" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="644">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/types.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="39" selection-start="522" selection-end="522" vertical-scroll-proportion="0.13207547" vertical-offset="314" max-vertical-offset="1150">
           <folding />
         </state>
       </provider>
