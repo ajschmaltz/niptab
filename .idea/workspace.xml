@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="565b569f-d329-4952-9153-0c485c2471e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/filings.blade.php" afterPath="$PROJECT_DIR$/resources/views/filings.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/tickers.blade.php" afterPath="$PROJECT_DIR$/resources/views/tickers.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
     </list>
     <ignored path="niptab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,15 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="create-pattern.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/create-pattern.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="90" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1012">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FilingController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FilingController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,20 +45,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <file leaf-file-name="types.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/types.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="73" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1380">
+            <state line="32" column="28" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1104">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="types.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/types.blade.php">
+      <file leaf-file-name="PageController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="28" selection-start="846" selection-end="846" vertical-scroll-proportion="1.2624357" vertical-offset="0" max-vertical-offset="1104">
-              <folding />
+            <state line="55" column="3" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0" vertical-offset="866" max-vertical-offset="1702">
+              <folding>
+                <element signature="e#39#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DownloadController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DownloadController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="16" selection-start="516" selection-end="516" vertical-scroll-proportion="1.025729" vertical-offset="0" max-vertical-offset="828">
+              <folding>
+                <element signature="e#39#61#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,7 +162,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/TickerController.php" />
         <option value="$PROJECT_DIR$/resources/views/create-type.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FilingController.php" />
         <option value="$PROJECT_DIR$/resources/views/create-pattern.blade.php" />
@@ -172,6 +173,8 @@
         <option value="$PROJECT_DIR$/resources/views/filings.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/tickers.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/DownloadController.php" />
       </list>
     </option>
   </component>
@@ -693,15 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="13" selection-start="1503" selection-end="1503" vertical-scroll-proportion="0.5346535" vertical-offset="1562" max-vertical-offset="2185">
-          <folding>
-            <element signature="e#39#61#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Pattern.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="44" selection-start="137" selection-end="137" vertical-scroll-proportion="0.22772278" vertical-offset="0" max-vertical-offset="606">
@@ -720,15 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="21" selection-start="573" selection-end="573" vertical-scroll-proportion="0.25742576" vertical-offset="396" max-vertical-offset="1127">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="16" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1081">
-          <folding>
-            <element signature="e#7#392#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -799,8 +784,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/types.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="28" selection-start="846" selection-end="846" vertical-scroll-proportion="1.2624357" vertical-offset="0" max-vertical-offset="1104">
+        <state line="32" column="28" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1104">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="16" selection-start="1164" selection-end="1164" vertical-scroll-proportion="1.1183534" vertical-offset="245" max-vertical-offset="1081">
+          <folding>
+            <element signature="e#7#392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="3" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0" vertical-offset="866" max-vertical-offset="1702">
+          <folding>
+            <element signature="e#39#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DownloadController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="16" selection-start="516" selection-end="516" vertical-scroll-proportion="1.025729" vertical-offset="0" max-vertical-offset="828">
+          <folding>
+            <element signature="e#39#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

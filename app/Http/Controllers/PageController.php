@@ -55,27 +55,6 @@ class PageController extends Controller {
       ->withTypes(Type::all());
   }
 
-  public function getDownloadHolders()
-  {
-    return CSV::create(
-      Ticker::all()->toArray()
-    )->render();
-  }
-
-  public function getDownloadFilings()
-  {
-    return CSV::create(
-      Filing::all()->toArray()
-    )->render();
-  }
-
-  public function getDownloadTickers()
-  {
-    return CSV::create(
-      Holder::all()->toArray()
-    )->render();
-  }
-
   public function getTruncate()
   {
     Datum::truncate();
