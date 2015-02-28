@@ -10,6 +10,11 @@ use App\Filing;
 
 class DownloadController extends Controller {
 
+  public function __construct()
+  {
+    $this->middleware('auth');
+  }
+
 	public function downloadData()
   {
     return CSV::create(

@@ -40,16 +40,23 @@
           <li @if (Request::is('types*')) class="active" @endif><a href="/types">Types</a></li>
           <li @if (Request::is('help')) class="active" @endif><a href="/help">Help</a></li>
 				</ul>
-        <div class="navbar-form navbar-right">
-          {!! Form::open(['method' => 'GET', 'url' =>'search', 'class' => 'form-inline']) !!}
-          <div class="form-group">
-            {!! Form::text('symbol', null, ['class' => 'form-control', 'placeholder' => 'Symbol']) !!}
+        @if (Auth::guest())
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="{{ url('/auth/login') }}">Login</a></li>
+            <li><a href="{{ url('/auth/register') }}">Register</a></li>
+          </ul>
+        @else
+          <div class="navbar-form navbar-right">
+            {!! Form::open(['method' => 'GET', 'url' =>'search', 'class' => 'form-inline']) !!}
+            <div class="form-group">
+              {!! Form::text('symbol', null, ['class' => 'form-control', 'placeholder' => 'Symbol']) !!}
+            </div>
+            <div class="form-group">
+              {!! Form::submit('Find', ['class' => 'btn btn-primary']) !!}
+            </div>
+            {!! Form::close() !!}
           </div>
-          <div class="form-group">
-            {!! Form::submit('Find', ['class' => 'btn btn-primary']) !!}
-          </div>
-          {!! Form::close() !!}
-        </div>
+        @endif
 			</div>
 		</div>
 	</nav>

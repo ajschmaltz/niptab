@@ -11,6 +11,11 @@
 |
 */
 
+Route::controllers([
+  'auth' => 'Auth\AuthController',
+  'password' => 'Auth\PasswordController',
+]);
+
 Route::get('/', 'PageController@showData');
 
 Route::get('help', 'PageController@showHelp');

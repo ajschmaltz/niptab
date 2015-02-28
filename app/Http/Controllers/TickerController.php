@@ -8,6 +8,11 @@ use App\Ticker;
 
 class TickerController extends Controller {
 
+  public function __construct()
+  {
+    $this->middleware('auth');
+  }
+
   public function uploadTickers(Request $request)
   {
     $data = file_get_contents($request->file('csv')->getRealPath());
