@@ -32,6 +32,7 @@
           @forelse($data as $datum)
             <tr>
               <td>{{ $datum->id }}</td>
+              <td>{{ $datum->filing->ticker->symbol }}</td>
 
               <td>{{ $datum->updated_at->format("F j, Y, g:i a") }}</td>
               <td>{{ $datum->pattern->finds }}</td>
