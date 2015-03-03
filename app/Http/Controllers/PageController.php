@@ -18,6 +18,7 @@ class PageController extends Controller {
 
   public function showData()
   {
+    dd(Datum::paginate(50));
     return view('index')->withData(Datum::paginate(50));
   }
 
