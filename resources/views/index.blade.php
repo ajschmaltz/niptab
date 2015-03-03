@@ -32,6 +32,8 @@
           @forelse($data as $datum)
             <tr>
               <td>{{ $datum->id }}</td>
+              <td>{{ $datum->filing->ticker->symbol }}</td>
+              <td><a href="{{ $datum->filing->link }}">{{ $datum->filing->type->name }}</a></td>
 
             </tr>
           @empty
