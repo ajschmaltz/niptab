@@ -8,7 +8,7 @@
       <hr/>
       <div class="row">
         <div class="col-md-8">
-          {!! $data->render() !!}
+
         </div>
         <div class="col-md-4 text-right">
           <div style="margin-top: 20px;" class="btn-group" role="group" aria-label="...">
@@ -49,7 +49,7 @@
         </tbody>
       </table>
       <a class="btn btn-danger pull-right" href="/truncate" style="margin-top: 20px;">Truncate Data</a>
-      {!! $data->render() !!}
+
 	</div>
 </div>
 @endsection
