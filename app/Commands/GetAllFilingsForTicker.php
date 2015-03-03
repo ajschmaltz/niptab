@@ -61,8 +61,6 @@ class GetAllFilingsForTicker extends Command implements SelfHandling {
       return null;
     }
 
-    $ticker->filings()->where('type_id', $type->id)->delete();
-
     $ticker->filings()->create([
       'type_id' => $type->id,
       'link' => $this->getLinkToFiling($filings, $type->name),
