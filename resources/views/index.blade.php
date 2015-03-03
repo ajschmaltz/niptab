@@ -29,7 +29,17 @@
           </tr>
         </thead>
         <tbody>
-          
+          @forelse($data as $datum)
+            <tr>
+
+            </tr>
+          @empty
+            <tr>
+              <td colspan="7">
+                <div class="well">There is no data to show.</div>
+              </td>
+            </tr>
+          @endforelse
         </tbody>
       </table>
       <a class="btn btn-danger pull-right" href="/truncate" style="margin-top: 20px;">Truncate Data</a>
