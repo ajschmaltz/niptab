@@ -31,6 +31,7 @@
         <tbody>
           @forelse($data as $datum)
             <tr>
+              <td>{{ $datum->id }}</td>
 
             </tr>
           @empty
