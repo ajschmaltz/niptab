@@ -28,7 +28,7 @@ class GetAllFilingsForTicker extends Command implements SelfHandling {
 	 */
 	public function handle()
 	{
-    Ticker::take(2)->orderBy('updated_at')->get()->each(function($ticker){
+    Ticker::take(5)->orderBy('updated_at')->get()->each(function($ticker){
       $ticker->touch();
       $this->getFilingsByType($ticker);
     });
