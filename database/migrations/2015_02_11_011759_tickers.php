@@ -16,6 +16,7 @@ class Tickers extends Migration {
     {
       $table->increments('id');
       $table->string('symbol');
+      $table->integer('status')->default(0);
       $table->timestamps();
     });
 	}

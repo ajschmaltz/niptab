@@ -4,7 +4,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Ticker extends Model {
 
-  protected $fillable = ['symbol'];
+  protected $fillable = ['symbol', 'status'];
 
   public function holders()
   {
