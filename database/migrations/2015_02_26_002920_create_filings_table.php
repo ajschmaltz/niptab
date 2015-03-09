@@ -18,6 +18,7 @@ class CreateFilingsTable extends Migration {
       $table->integer('ticker_id');
       $table->integer('type_id');
       $table->string('link');
+      $table->integer('status')->default(0);
 			$table->timestamps();
 		});
 	}

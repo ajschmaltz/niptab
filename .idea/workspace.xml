@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="565b569f-d329-4952-9153-0c485c2471e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Commands/GetAllFilingsForTicker.php" afterPath="$PROJECT_DIR$/app/Commands/GetAllFilingsForTicker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_02_26_002920_create_filings_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_02_26_002920_create_filings_table.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Commands/ParseFiling.php" afterPath="$PROJECT_DIR$/app/Commands/ParseFiling.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="niptab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,7 +56,16 @@
       <file leaf-file-name="ParseFiling.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Commands/ParseFiling.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="18" selection-start="502" selection-end="502" vertical-scroll-proportion="0.33333334" vertical-offset="369" max-vertical-offset="1587">
+            <state line="28" column="22" selection-start="525" selection-end="525" vertical-scroll-proportion="0.39163497" vertical-offset="346" max-vertical-offset="1587">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015_02_26_002920_create_filings_table.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_26_002920_create_filings_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="7" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="943">
               <folding />
             </state>
           </provider>
@@ -125,7 +133,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/DataController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CronController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_02_26_020620_create_data_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_02_26_002920_create_filings_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_02_26_131006_create_types_table.php" />
         <option value="$PROJECT_DIR$/app/Type.php" />
         <option value="$PROJECT_DIR$/.env" />
@@ -162,6 +169,7 @@
         <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
         <option value="$PROJECT_DIR$/app/Commands/GetAllFilingsForTicker.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_02_26_002920_create_filings_table.php" />
         <option value="$PROJECT_DIR$/app/Commands/ParseFiling.php" />
       </list>
     </option>
@@ -670,11 +678,6 @@
         <state line="13" column="22" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_26_002920_create_filings_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="29" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_26_131006_create_types_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="29" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874" />
@@ -837,9 +840,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_02_26_002920_create_filings_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="7" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="943">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Commands/ParseFiling.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="18" selection-start="502" selection-end="502" vertical-scroll-proportion="0.33333334" vertical-offset="369" max-vertical-offset="1587">
+        <state line="28" column="22" selection-start="525" selection-end="525" vertical-scroll-proportion="0.39163497" vertical-offset="346" max-vertical-offset="1587">
           <folding />
         </state>
       </provider>
