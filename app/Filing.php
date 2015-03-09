@@ -4,7 +4,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Filing extends Model {
 
-  protected $fillable = ['type_id', 'link'];
+  protected $fillable = ['type_id', 'link', 'status'];
 
 	public function ticker()
   {
