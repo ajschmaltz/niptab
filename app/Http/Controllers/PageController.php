@@ -31,9 +31,16 @@ class PageController extends Controller {
     return view('upload-tickers');
   }
 
-  public function showFilings()
+  public function showFilings(Request $request)
   {
-    return view('filings')->withFilings(Filing::paginate(50));
+
+    $filings = Filing::query();
+
+    if($request->has('data')) {
+      $filings->has('data', 0);
+    }
+
+    return view('filings')->withFilings($filings->paginate(50));
   }
 
   public function createPatterns()

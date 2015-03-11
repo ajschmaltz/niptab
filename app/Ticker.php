@@ -16,4 +16,9 @@ class Ticker extends Model {
     return $this->hasMany(Filing::class);
   }
 
+  public function datas()
+  {
+    return $this->hasManyThrough(Datum::class, Filing::class);
+  }
+
 }

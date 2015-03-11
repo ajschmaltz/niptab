@@ -7,6 +7,8 @@
       <div class="row">
         <h1>Filings</h1>
         <hr/>
+        <a href="/filings?data=0">Show Filings without Data</a>
+        <hr/>
         <div class="col-md-8">
           {!! $filings->render() !!}
         </div>
@@ -31,7 +33,7 @@
               <td>{{ $filing->id }}</td>
               <td>{{ $filing->ticker->symbol }}</td>
               <td>{{ $filing->type->name }}</td>
-              <td>{{ $filing->link }}</td>
+              <td><a target="_blank" href="{{ $filing->link }}">{{ $filing->link }}</a></td>
             </tr>
           @empty
             <tr>
