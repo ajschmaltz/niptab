@@ -7,7 +7,8 @@
       <div class="row">
         <h1>Filings</h1>
         <hr/>
-        <a href="/filings?data=0">Show Filings without Data</a>
+        <p>I'd like to make this a form, but in the interest of time, it's a link with the common function.</p>
+        <a href="/filings?data=0&type=3">Show 10-K Filings without Data</a> | <a href="/filings?data=0&type=4">Show 10-Q Filings without Data</a>
         <hr/>
         <div class="col-md-8">
           {!! $filings->render() !!}

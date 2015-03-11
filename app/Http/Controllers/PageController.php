@@ -37,7 +37,11 @@ class PageController extends Controller {
     $filings = Filing::query();
 
     if($request->has('data')) {
-      $filings->has('data', 0);
+      $filings->has('data', $request->get('data'));
+    }
+
+    if($request->has('type')) {
+      $filings->where('type_id', $request->get('type'));
     }
 
     return view('filings')->withFilings($filings->paginate(50));
