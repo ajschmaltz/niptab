@@ -24,7 +24,7 @@ class ParseFiling extends Command implements SelfHandling {
 	 */
 	public function handle()
 	{
-    Filing::whereStatus(1)->take(7)->orderBy('updated_at')->get()->each(function($filing){
+    Filing::whereStatus(1)->has('data', 0)->take(7)->orderBy('updated_at')->get()->each(function($filing){
       $filing->status = 2;
       $filing->save();
       $this->processFiling($filing);
