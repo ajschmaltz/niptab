@@ -39,6 +39,7 @@ class ParseFiling extends Command implements SelfHandling {
     );
 
     $filing->type->patterns->each(function($pattern) use ($content, $filing){
+      print 'test';
       $this->parseFiling($filing, $content, $pattern);
     });
   }
