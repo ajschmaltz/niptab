@@ -46,9 +46,20 @@
       <file leaf-file-name="DownloadController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DownloadController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="31" selection-start="215" selection-end="215" vertical-scroll-proportion="0.31748468" vertical-offset="0" max-vertical-offset="1104">
+            <state line="9" column="11" selection-start="195" selection-end="195" vertical-scroll-proportion="0.3290938" vertical-offset="0" max-vertical-offset="1104">
               <folding>
                 <element signature="e#39#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014_10_12_000000_create_users_table.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="4" selection-start="222" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="966">
+              <folding>
+                <element signature="e#7#48#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -219,11 +230,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -237,7 +244,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -406,11 +417,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1196" />
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="715" column="9" selection-start="21191" selection-end="21191" vertical-scroll-proportion="0.3327674" vertical-offset="16249" max-vertical-offset="25898">
@@ -652,13 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/patterns.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1219">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="59" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.0" vertical-offset="590" max-vertical-offset="1357">
@@ -680,9 +679,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="4" selection-start="222" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="966">
+          <folding>
+            <element signature="e#7#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/patterns.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="23" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1219">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DownloadController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="215" selection-end="215" vertical-scroll-proportion="0.31748468" vertical-offset="0" max-vertical-offset="1104">
+        <state line="9" column="11" selection-start="195" selection-end="195" vertical-scroll-proportion="0.3290938" vertical-offset="0" max-vertical-offset="1104">
           <folding>
             <element signature="e#39#61#0" expanded="true" />
           </folding>
