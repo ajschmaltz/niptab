@@ -44,7 +44,7 @@ Route::get('types/{id}/delete', 'TypeController@deleteType');
 
 Route::get('patterns', 'PageController@getPatterns');
 
-Route::get('patterns/create', 'PageController@createPatterns');
+Route::get('patterns/create', 'PageController@createPattern');
 
 Route::post('patterns/create', 'PatternController@savePattern');
 

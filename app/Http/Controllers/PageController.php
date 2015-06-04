@@ -47,13 +47,13 @@ class PageController extends Controller {
     return view('filings')->withFilings($filings->paginate(50));
   }
 
-  public function createPatterns()
+  public function createPattern()
   {
     return view('create-pattern')
       ->withTypes(Type::all());
   }
 
-  public function testPatterns()
+  public function testPattern()
   {
     return view('test-pattern');
   }
