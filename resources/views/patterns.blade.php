@@ -12,6 +12,7 @@
         <div class="col-md-4 text-right">
           <div style="margin-top: 20px;" class="btn-group" role="group" aria-label="...">
             <a href="/patterns/create" class="btn btn-primary">Create Pattern</a>
+            <a href="/patterns/test" class="btn btn-default">Test Pattern</a>
           </div>
         </div>
       </div>

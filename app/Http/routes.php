@@ -48,6 +48,10 @@ Route::get('patterns/create', 'PageController@createPatterns');
 
 Route::post('patterns/create', 'PatternController@savePattern');
 
+Route::get('patterns/test', 'PageController@testPattern');
+
+Route::post('patterns/test', 'PatternController@testPattern');
+
 Route::get('patterns/{id}/delete', 'PatternController@deletePattern');
 
 Route::get('parse', 'FilingController@getParse');

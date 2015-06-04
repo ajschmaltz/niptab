@@ -53,6 +53,11 @@ class PageController extends Controller {
       ->withTypes(Type::all());
   }
 
+  public function testPatterns()
+  {
+    return view('test-pattern');
+  }
+
   public function getPatterns()
   {
     return view('patterns')
