@@ -22,7 +22,9 @@ class DownloadController extends Controller {
     $schema[0] = Schema::getColumnListing('data');
     $data = Datum::all()->toArray();
 
-    array_unshift($data, $schema);
+    // array_unshift($data, $schema);
+    // The array_unshift doesn't move an array to the first element of an array.
+    // ToDo: HOW DO YOU DO THIS?
 
     return CSV::create($data)
       ->render();

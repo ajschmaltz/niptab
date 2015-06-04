@@ -20,6 +20,7 @@
         <thead>
           <tr>
             <th>ID</th>
+            <th>Pattern ID</th>
             <th>Symbol</th>
             <th>Filing</th>
             <th>Last Updated</th>
@@ -32,6 +33,7 @@
           @forelse($data as $datum)
             <tr>
               <td>{{ $datum->id }}</td>
+              <td>{{ $datum->pattern->id }}</td>
               <td>{{ $datum->filing->ticker->symbol }}</td>
               <td><a href="{{ $datum->filing->link }}">{{ $datum->filing->type->name }}</a></td>
               <td>{{ $datum->updated_at->format("F j, Y, g:i a") }}</td>
