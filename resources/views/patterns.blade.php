@@ -7,9 +7,7 @@
       <h1>Patterns</h1>
       <hr/>
       <div class="row">
-        <div class="col-md-8">
-        </div>
-        <div class="col-md-4 text-right">
+        <div class="col-md-12 text-right">
           <div style="margin-top: 20px;" class="btn-group" role="group" aria-label="...">
             <a href="/patterns/create" class="btn btn-primary">Create Pattern</a>
             <a href="/patterns/test" class="btn btn-default">Test Pattern</a>
