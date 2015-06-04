@@ -7,6 +7,7 @@ use CSV;
 use App\Ticker;
 use App\Datum;
 use App\Filing;
+use Illuminate\Database\Schema;
 
 class DownloadController extends Controller {
 
