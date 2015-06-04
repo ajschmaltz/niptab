@@ -18,12 +18,14 @@ class DownloadController extends Controller {
 
 	public function downloadData()
   {
-    $schema = Schema::getColumnListing('data');
-    dd(Datum::all()->toArray());
+    $schema = [];
+    $schema[0] = Schema::getColumnListing('data');
+    $data = Datum::all()->toArray();
 
-    return CSV::create(
-      Datum::all()->toArray()
-    )->render();
+    array_unshift($data, $schema);
+
+    return CSV::create($data)
+      ->render();
   }
 
   public function downloadTickers()
