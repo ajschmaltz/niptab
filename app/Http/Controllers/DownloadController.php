@@ -19,7 +19,8 @@ class DownloadController extends Controller {
 	public function downloadData()
   {
     $schema = Schema::getColumnListing('data');
-    dd($schema);
+    dd(Datum::all()->toArray());
+
     return CSV::create(
       Datum::all()->toArray()
     )->render();
